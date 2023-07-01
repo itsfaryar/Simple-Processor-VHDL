@@ -1,0 +1,70 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+	-- Add your library and packages declaration here ...
+
+entity ir_regester_tb is
+end ir_regester_tb;
+
+architecture TB_ARCHITECTURE of ir_regester_tb is
+	-- Component declaration of the tested unit
+	component ir_regester
+	port(
+		RIN : in STD_LOGIC_VECTOR(5 downto 0);
+		CLK : in STD_LOGIC;
+		LD : in STD_LOGIC;
+		ROUT : out STD_LOGIC_VECTOR(5 downto 0) );
+	end component;
+
+	-- Stimulus signals - signals mapped to the input and inout ports of tested entity
+	signal RIN : STD_LOGIC_VECTOR(5 downto 0);
+	signal CLK : STD_LOGIC;
+	signal LD : STD_LOGIC;
+	-- Observed signals - signals mapped to the output ports of tested entity
+	signal ROUT : STD_LOGIC_VECTOR(5 downto 0);
+
+	-- Add your code here ...
+
+begin
+
+	-- Unit Under Test port map
+	UUT : ir_regester
+		port map (
+			RIN => RIN,
+			CLK => CLK,
+			LD => LD,
+			ROUT => ROUT
+		);
+		
+		process
+		begin
+			clk <= '0';
+			WAIT FOR 10 NS;
+			clk <= '1';
+			WAIT FOR 10 NS;
+		
+	end process;
+	-- Add your stimulus here ...
+		process
+		begin
+			RIN <= "000011";
+			LD <= '1';
+			WAIT FOR 20 NS;
+			RIN <= "000000";
+			LD <= '0';
+			WAIT FOR 20 NS;	   
+			RIN <= "000000";
+			LD <= '1';
+			WAIT FOR 20 NS;
+		
+	end process;
+end TB_ARCHITECTURE;
+
+configuration TESTBENCH_FOR_ir_regester of ir_regester_tb is
+	for TB_ARCHITECTURE
+		for UUT : ir_regester
+			use entity work.ir_regester(ir_regester);
+		end for;
+	end for;
+end TESTBENCH_FOR_ir_regester;
+

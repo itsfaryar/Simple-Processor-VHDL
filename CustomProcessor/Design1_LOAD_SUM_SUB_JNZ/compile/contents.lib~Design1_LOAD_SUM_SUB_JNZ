@@ -1,0 +1,23 @@
+45
+~E 1 "../src/ALU.vhd" 5 ALU
+~A 1 "../src/ALU.vhd" 14 ALU
+~E 1 "../src/TestBench/alu_TB.vhd" 7 alu_tb
+~A 1 "../src/TestBench/alu_TB.vhd" 10 TB_ARCHITECTURE
+~E 1 "../src/IR_Regester.vhd" 5 IR_Regester
+~A 1 "../src/IR_Regester.vhd" 16 IR_Regester
+~E 1 "../src/TestBench/ir_regester_TB.vhd" 6 ir_regester_tb
+~A 1 "../src/TestBench/ir_regester_TB.vhd" 9 TB_ARCHITECTURE
+~E 1 "../src/Main.vhd" 4 Main
+~A 1 "../src/Main.vhd" 12 Main
+~E 1 "../src/MRegester.vhd" 5 MRegester
+~A 1 "../src/MRegester.vhd" 16 MRegester
+~E 1 "../src/TestBench/mregester_TB.vhd" 7 mregester_tb
+~A 1 "../src/TestBench/mregester_TB.vhd" 10 TB_ARCHITECTURE
+~E 1 "../src/PC_Regester.vhd" 5 PC_Regester
+~A 1 "../src/PC_Regester.vhd" 15 PC_Regester
+~E 1 "../src/TestBench/pc_regester_TB.vhd" 7 pc_regester_tb
+~A 1 "../src/TestBench/pc_regester_TB.vhd" 10 TB_ARCHITECTURE
+~C 1 "../src/TestBench/alu_TB.vhd" 54 testbench_for_alu
+~C 1 "../src/TestBench/ir_regester_TB.vhd" 55 testbench_for_ir_regester
+~C 1 "../src/TestBench/mregester_TB.vhd" 67 testbench_for_mregester
+~C 1 "../src/TestBench/pc_regester_TB.vhd" 85 testbench_for_pc_regester

@@ -1,0 +1,5 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/Main.vhd" 
+MESSAGE "Compile Entity "Main"" 
+MESSAGE "Compile Architecture "Main" of Entity "Main"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]" 

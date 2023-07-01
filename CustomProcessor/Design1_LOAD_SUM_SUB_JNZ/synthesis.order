@@ -1,0 +1,10 @@
+i<>.\src\ALU.vhd
+i<>.\src\TestBench\alu_TB.vhd
+i<>.\src\Regester.vhd
+i<>.\src\TestBench\mregester_TB.vhd
+i<>.\src\IR_Regester.vhd
+i<>.\src\TestBench\ir_regester_TB.vhd
+i<>.\src\PC_Regester.vhd
+i<>.\src\TestBench\pc_regester_TB.vhd
+i<>.\src\Main.vhd
+i<>.\src\Memory.vhd

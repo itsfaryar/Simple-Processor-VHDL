@@ -1,0 +1,67 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=Design1_LOAD_SUM_SUB_JNZ
+[Library]
+Design1_LOAD_SUM_SUB_JNZ=.\Design1_LOAD_SUM_SUB_JNZ\Design1_LOAD_SUM_SUB_JNZ.lib
+[$LibMap$]
+Design1_LOAD_SUM_SUB_JNZ=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+[Files]
+/ALU.vhd=-1
+/MRegester.vhd=-1
+/IR_Regester.vhd=-1
+/PC_Regester.vhd=-1
+/Main.vhd=-1
+/Memory.vhd=-1
+TestBench/alu_TB.vhd=-1
+TestBench/alu_TB_runtest.do=-1
+TestBench/mregester_TB.vhd=-1
+TestBench/mregester_TB_runtest.do=-1
+TestBench/ir_regester_TB.vhd=-1
+TestBench/ir_regester_TB_runtest.do=-1
+TestBench/pc_regester_TB.vhd=-1
+TestBench/pc_regester_TB_runtest.do=-1
+Results/ALU_TB_Res.asdb=-1
+Results/ALU_TB_Res.awc=-1
+Results/MRegester_TB_Res.asdb=-1
+Results/MRegester_TB_Res.awc=-1
+Results/IR_Regester_TB_Res.asdb=-1
+Results/IR_Regester_TB_Res.awc=-1
+Results/PC_Regester_TB_Res.asdb=-1
+Results/PC_Regester_TB_Res.awc=-1
+[Files.Data]
+.\src\ALU.vhd=VHDL Source Code
+.\src\MRegester.vhd=VHDL Source Code
+.\src\IR_Regester.vhd=VHDL Source Code
+.\src\PC_Regester.vhd=VHDL Source Code
+.\src\Main.vhd=VHDL Source Code
+.\src\Memory.vhd=VHDL Source Code
+.\src\TestBench\alu_TB.vhd=VHDL Test Bench
+.\src\TestBench\alu_TB_runtest.do=Macro
+.\src\TestBench\mregester_TB.vhd=VHDL Test Bench
+.\src\TestBench\mregester_TB_runtest.do=Macro
+.\src\TestBench\ir_regester_TB.vhd=VHDL Test Bench
+.\src\TestBench\ir_regester_TB_runtest.do=Macro
+.\src\TestBench\pc_regester_TB.vhd=VHDL Test Bench
+.\src\TestBench\pc_regester_TB_runtest.do=Macro
+.\src\Results\ALU_TB_Res.asdb=Accelerated Waveform File
+.\src\Results\ALU_TB_Res.awc=Accelerated Waveform Configuration
+.\src\Results\MRegester_TB_Res.asdb=Accelerated Waveform File
+.\src\Results\MRegester_TB_Res.awc=Accelerated Waveform Configuration
+.\src\Results\IR_Regester_TB_Res.asdb=Accelerated Waveform File
+.\src\Results\IR_Regester_TB_Res.awc=Accelerated Waveform Configuration
+.\src\Results\PC_Regester_TB_Res.asdb=Accelerated Waveform File
+.\src\Results\PC_Regester_TB_Res.awc=Accelerated Waveform Configuration
+[Groups]
+TestBench=1
+Results=1
