@@ -1,5 +1,5 @@
 header = "library IEEE;\nuse IEEE.STD_LOGIC_1164.all;\nuse IEEE.STD_LOGIC_unsigned.all;\nuse ieee.numeric_std.all; \nentity Memory is	\n	port(\n	     Address : in std_logic_vector(5 downto 0);\n		 Data : out std_logic_vector(5 downto 0)\n		 );	\nend Memory;\narchitecture Memory of Memory is\ntype mem_type is array(0 to 63) of std_logic_vector(5 downto 0);\nsignal ROM : mem_type;\nbegin"
-footer ="Data <= m(to_integer(unsigned(Address)));\nend Memory;"
+footer ="Data <= ROM(to_integer(unsigned(Address)));\nend Memory;"
 
 reg_dic = {"R0": "00", "R1": "01", "R2": "10", "R3": "11", }
 def getIn6bitBinaryFormat(Integer: int):
@@ -38,7 +38,7 @@ def getCodeInBinaryFormat(file_path):
 def getVHDLCode(binaryCode):
     output = header
     for i, code in enumerate(binaryCode):
-        output += "\nROM("+ str(i) +") <= " + code + ";"
+        output += "\nROM("+ str(i) +") <= \"" + code + "\";"
     return output + "\n" + footer
 
 def Main(_argv):

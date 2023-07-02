@@ -1,4 +1,4 @@
-46
+47
 ~E 1 "../src/ALU.vhd" 5 ALU
 ~A 1 "../src/ALU.vhd" 14 ALU
 ~E 1 "../src/TestBench/alu_TB.vhd" 7 alu_tb
@@ -10,6 +10,7 @@
 ~E 1 "../src/Main.vhd" 4 Main
 ~A 1 "../src/Main.vhd" 12 Main
 ~E 1 "../src/Memory.vhd" 5 Memory
+~A 1 "../src/Memory.vhd" 11 Memory
 ~E 1 "../src/MRegester.vhd" 5 MRegester
 ~A 1 "../src/MRegester.vhd" 16 MRegester
 ~E 1 "../src/TestBench/mregester_TB.vhd" 7 mregester_tb
