@@ -1,11 +1,21 @@
-entity Memory is
+library IEEE;
+use IEEE.STD_LOGIC_1164.all;
+use IEEE.STD_LOGIC_unsigned.all;
+use ieee.numeric_std.all; 
+entity Memory is	
+	port(
+	     Address : in std_logic_vector(5 downto 0);
+		 Data : out std_logic_vector(5 downto 0)
+		 );	
 end Memory;
-
---}} End of automatically maintained section
-
 architecture Memory of Memory is
+type mem_type is array(0 to 63) of std_logic_vector(5 downto 0);
+signal ROM : mem_type;
 begin
-
-	 -- enter your statements here --
-
+ROM(0) <= 000000;
+ROM(1) <= 000111;
+ROM(2) <= 000100;
+ROM(3) <= 000100;
+ROM(4) <= 010001;
+Data <= m(to_integer(unsigned(Address)));
 end Memory;

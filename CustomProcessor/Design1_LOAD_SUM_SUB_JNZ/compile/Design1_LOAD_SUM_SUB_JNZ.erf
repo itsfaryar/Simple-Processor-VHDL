@@ -1,5 +1,6 @@
 WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
-MESSAGE "File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/Main.vhd" 
-MESSAGE "Compile Entity "Main"" 
-MESSAGE "Compile Architecture "Main" of Entity "Main"" 
-SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]" 
+MESSAGE "File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/Memory.vhd" 
+MESSAGE "Compile Entity "Memory"" 
+MESSAGE "Compile Architecture "Memory" of Entity "Memory"" 
+ERROR COMP96_0127: "Improper aggregate length. Expected length is 64." "C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/Memory.vhd" 15 26
+FAILURE "Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [ms]" 

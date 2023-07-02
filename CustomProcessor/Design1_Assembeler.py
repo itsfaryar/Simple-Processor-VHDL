@@ -43,7 +43,8 @@ def getVHDLCode(binaryCode):
 
 def Main(_argv):
     code = getVHDLCode(getCodeInBinaryFormat(_argv[0]))
-    f = open("./Design1_LOAD_SUM_SUB_JNZ/src/Memory.vhdl", "w")
+
+    f = open("./Design1_LOAD_SUM_SUB_JNZ/src/Memory.vhd", "w")
     f.write(code)
     f.close()
 

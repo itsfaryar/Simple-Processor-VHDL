@@ -1,12 +1,12 @@
-timestamp=1688253965485
+timestamp=1688259079528
 
 [~A]
-ModifyID=45
+ModifyID=46
 Version=74
 
 [~MFT]
-0=8|0Design1_LOAD_SUM_SUB_JNZ.mgf|45172|26863
-1=2|1Design1_LOAD_SUM_SUB_JNZ.mgf|62065|50007
+0=4|0Design1_LOAD_SUM_SUB_JNZ.mgf|46068|26863
+1=0|1Design1_LOAD_SUM_SUB_JNZ.mgf|62065|50007
 3=0|3Design1_LOAD_SUM_SUB_JNZ.mgf|15433|11719
 
 [alu]
@@ -62,6 +62,12 @@ M/main=M/Main 21|2|vef|1688253965481|../src/Main.vhd|0*43492*0xae55cddb601e6a0ff
 R=../src/Main.vhd|4
 Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|a10d1194a18e37435e6d6f0ad7feedab9bc030dc52059a16656c908ddca519a0
 Version/main=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|a10d1194a18e37435e6d6f0ad7feedab1469aab0bef85a63ae2f448cbf8720be
+
+[memory]
+I=0*46068
+M=11|2|vef|1688259079526|../src/Memory.vhd|0*45693*0xf03ec6bf30a62863dd842bc60fa5e9387e46d314|0*45991*0x23b75c12e3e89f2ef000564498faa8c2
+R=../src/Memory.vhd|5
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|fce057f312e65ae91f0ff41fc89566339e285b5e81295a3b365c162172113edf
 
 [mregester]
 A/mregester=A/MRegester 21|../src/MRegester.vhd|16|1*28189
@@ -145,6 +151,7 @@ alu_tb=11|0*2188|
 ir_regester=IR_Regester 11|0*22203|
 ir_regester_tb=11|0*25539|
 main=Main 11|0*39957|
+memory=Memory 11|0*45499|
 mregester=MRegester 11|0*21186|
 mregester_tb=11|0*9516|
 pc_regester=PC_Regester 11|0*23219|

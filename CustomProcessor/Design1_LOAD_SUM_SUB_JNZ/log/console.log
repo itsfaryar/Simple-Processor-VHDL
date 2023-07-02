@@ -1,0 +1,859 @@
+# Design: Design Design1_LOAD_SUM_SUB_JNZ already active.
+# DESIGN: Default Design Language: VHDL
+# DESIGN: Default BDE Language: VHDL
+# DESIGN: Flow Manager: Not Defined
+acom -reorder -O3 -e 100 -work Design1_LOAD_SUM_SUB_JNZ -2002  $dsn/src/ALU.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/ALU.vhd
+# Compile Entity "ALU"
+# Compile Architecture "ALU" of Entity "ALU"
+# Incorrect order of units detected.
+# Automatic reorder and incremental recompilation of required units in progress.
+# Top-level unit(s) detected:
+# Entity => ALU
+# File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/ALU.vhd
+# Compile Architecture "ALU" of Entity "ALU"
+# Error: COMP96_0078: ALU.vhd : (17, 11): Unknown identifier "clk".
+# Error: COMP96_0348: ALU.vhd : (17, 11): Name on sensitivity list must denote a signal.
+# Error: COMP96_0078: ALU.vhd : (19, 8): Unknown identifier "clk".
+# Error: COMP96_0133: ALU.vhd : (19, 8): Cannot find object declaration.
+# Error: COMP96_0078: ALU.vhd : (19, 22): Unknown identifier "clk".
+# Error: COMP96_0133: ALU.vhd : (19, 22): Cannot find object declaration.
+# Error: COMP96_0077: ALU.vhd : (19, 7): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0078: ALU.vhd : (20, 11): Unknown identifier "alu_control".
+# Error: COMP96_0133: ALU.vhd : (20, 11): Cannot find object declaration.
+# Error: COMP96_0584: ALU.vhd : (20, 11): Cannot determine the type of the case expression. Enumeration type, integer type, or one-dimensional array of characters expected.
+# Error: COMP96_0367: ALU.vhd : (29, 13): Improper array length (8). Expected length is 6.
+# Compile failure 11 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -e 100 -work Design1_LOAD_SUM_SUB_JNZ -2002  $dsn/src/ALU.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/ALU.vhd
+# Compile Entity "ALU"
+# Compile Architecture "ALU" of Entity "ALU"
+# Error: COMP96_0078: ALU.vhd : (17, 11): Unknown identifier "clk".
+# Error: COMP96_0348: ALU.vhd : (17, 11): Name on sensitivity list must denote a signal.
+# Error: COMP96_0078: ALU.vhd : (19, 8): Unknown identifier "clk".
+# Error: COMP96_0133: ALU.vhd : (19, 8): Cannot find object declaration.
+# Error: COMP96_0078: ALU.vhd : (19, 22): Unknown identifier "clk".
+# Error: COMP96_0133: ALU.vhd : (19, 22): Cannot find object declaration.
+# Error: COMP96_0077: ALU.vhd : (19, 7): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0078: ALU.vhd : (20, 11): Unknown identifier "alu_control".
+# Error: COMP96_0133: ALU.vhd : (20, 11): Cannot find object declaration.
+# Error: COMP96_0584: ALU.vhd : (20, 11): Cannot determine the type of the case expression. Enumeration type, integer type, or one-dimensional array of characters expected.
+# Compile failure 10 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work Design1_LOAD_SUM_SUB_JNZ -2002  $dsn/src/ALU.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/ALU.vhd
+# Compile Entity "ALU"
+# Compile Architecture "ALU" of Entity "ALU"
+# Error: COMP96_0078: ALU.vhd : (17, 11): Unknown identifier "clk".
+# Error: COMP96_0348: ALU.vhd : (17, 11): Name on sensitivity list must denote a signal.
+# Error: COMP96_0078: ALU.vhd : (19, 8): Unknown identifier "clk".
+# Error: COMP96_0133: ALU.vhd : (19, 8): Cannot find object declaration.
+# Error: COMP96_0078: ALU.vhd : (19, 22): Unknown identifier "clk".
+# Error: COMP96_0133: ALU.vhd : (19, 22): Cannot find object declaration.
+# Error: COMP96_0077: ALU.vhd : (19, 7): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0078: ALU.vhd : (20, 11): Unknown identifier "alu_control".
+# Error: COMP96_0133: ALU.vhd : (20, 11): Cannot find object declaration.
+# Error: COMP96_0584: ALU.vhd : (20, 11): Cannot determine the type of the case expression. Enumeration type, integer type, or one-dimensional array of characters expected.
+# Compile failure 10 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -e 100 -work Design1_LOAD_SUM_SUB_JNZ -2002  $dsn/src/ALU.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/ALU.vhd
+# Compile Entity "ALU"
+# Compile Architecture "ALU" of Entity "ALU"
+# Error: COMP96_0078: ALU.vhd : (17, 11): Unknown identifier "clk".
+# Error: COMP96_0348: ALU.vhd : (17, 11): Name on sensitivity list must denote a signal.
+# Error: COMP96_0078: ALU.vhd : (19, 8): Unknown identifier "clk".
+# Error: COMP96_0133: ALU.vhd : (19, 8): Cannot find object declaration.
+# Error: COMP96_0078: ALU.vhd : (19, 22): Unknown identifier "clk".
+# Error: COMP96_0133: ALU.vhd : (19, 22): Cannot find object declaration.
+# Error: COMP96_0077: ALU.vhd : (19, 7): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0078: ALU.vhd : (22, 21): Unknown identifier "a".
+# Error: COMP96_0078: ALU.vhd : (22, 25): Unknown identifier "b".
+# Error: COMP96_0133: ALU.vhd : (22, 25): Cannot find object declaration.
+# Error: COMP96_0133: ALU.vhd : (22, 21): Cannot find object declaration.
+# Error: COMP96_0077: ALU.vhd : (22, 21): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
+# Error: COMP96_0078: ALU.vhd : (24, 21): Unknown identifier "a".
+# Error: COMP96_0078: ALU.vhd : (24, 25): Unknown identifier "b".
+# Error: COMP96_0133: ALU.vhd : (24, 25): Cannot find object declaration.
+# Error: COMP96_0133: ALU.vhd : (24, 21): Cannot find object declaration.
+# Error: COMP96_0077: ALU.vhd : (24, 21): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
+# Error: COMP96_0083: ALU.vhd : (21, 11): The type of a choice expression does not match the case expression.
+# Error: COMP96_0083: ALU.vhd : (23, 11): The type of a choice expression does not match the case expression.
+# Compile failure 19 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work Design1_LOAD_SUM_SUB_JNZ -2002  $dsn/src/ALU.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/ALU.vhd
+# Compile Entity "ALU"
+# Compile Architecture "ALU" of Entity "ALU"
+# Error: COMP96_0078: ALU.vhd : (17, 11): Unknown identifier "clk".
+# Error: COMP96_0348: ALU.vhd : (17, 11): Name on sensitivity list must denote a signal.
+# Error: COMP96_0078: ALU.vhd : (19, 8): Unknown identifier "clk".
+# Error: COMP96_0133: ALU.vhd : (19, 8): Cannot find object declaration.
+# Error: COMP96_0078: ALU.vhd : (19, 22): Unknown identifier "clk".
+# Error: COMP96_0133: ALU.vhd : (19, 22): Cannot find object declaration.
+# Error: COMP96_0077: ALU.vhd : (19, 7): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0078: ALU.vhd : (22, 21): Unknown identifier "a".
+# Error: COMP96_0078: ALU.vhd : (22, 25): Unknown identifier "b".
+# Error: COMP96_0133: ALU.vhd : (22, 25): Cannot find object declaration.
+# Error: COMP96_0133: ALU.vhd : (22, 21): Cannot find object declaration.
+# Error: COMP96_0077: ALU.vhd : (22, 21): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
+# Error: COMP96_0078: ALU.vhd : (24, 21): Unknown identifier "a".
+# Error: COMP96_0078: ALU.vhd : (24, 25): Unknown identifier "b".
+# Error: COMP96_0133: ALU.vhd : (24, 25): Cannot find object declaration.
+# Error: COMP96_0133: ALU.vhd : (24, 21): Cannot find object declaration.
+# Error: COMP96_0077: ALU.vhd : (24, 21): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
+# Compile failure 17 Errors 0 Warnings  Analysis time :  62.0 [ms]
+acom -O3 -e 100 -work Design1_LOAD_SUM_SUB_JNZ -2002  $dsn/src/ALU.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/ALU.vhd
+# Compile Entity "ALU"
+# Compile Architecture "ALU" of Entity "ALU"
+# Error: COMP96_0078: ALU.vhd : (17, 11): Unknown identifier "clk".
+# Error: COMP96_0348: ALU.vhd : (17, 11): Name on sensitivity list must denote a signal.
+# Error: COMP96_0078: ALU.vhd : (19, 8): Unknown identifier "clk".
+# Error: COMP96_0133: ALU.vhd : (19, 8): Cannot find object declaration.
+# Error: COMP96_0078: ALU.vhd : (19, 22): Unknown identifier "clk".
+# Error: COMP96_0133: ALU.vhd : (19, 22): Cannot find object declaration.
+# Error: COMP96_0077: ALU.vhd : (19, 7): Undefined type of expression. Expected type 'BOOLEAN'.
+# Compile failure 7 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -e 100 -work Design1_LOAD_SUM_SUB_JNZ -2002  $dsn/src/ALU.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/ALU.vhd
+# Compile Entity "ALU"
+# Compile Architecture "ALU" of Entity "ALU"
+# Error: COMP96_0019: ALU.vhd : (27, 9): Keyword 'process' expected.
+# Error: COMP96_0015: ALU.vhd : (28, 7): ';' expected.
+# Error: COMP96_0016: ALU.vhd : (28, 14): Design unit declaration expected.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -e 100 -work Design1_LOAD_SUM_SUB_JNZ -2002  $dsn/src/ALU.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/ALU.vhd
+# Compile Entity "ALU"
+# Compile Architecture "ALU" of Entity "ALU"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -e 100 -work Design1_LOAD_SUM_SUB_JNZ -2002  $dsn/src/ALU.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/ALU.vhd
+# Compile Entity "ALU"
+# Compile Architecture "ALU" of Entity "ALU"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -e 100 -work Design1_LOAD_SUM_SUB_JNZ -2002  $dsn/src/TestBench/alu_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/TestBench/alu_TB.vhd
+# Compile Entity "alu_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "alu_tb"
+# Error: COMP96_0078: TestBench/alu_TB.vhd : (43, 3): Unknown identifier "input_1".
+# Error: COMP96_0133: TestBench/alu_TB.vhd : (43, 3): Cannot find object declaration.
+# Error: COMP96_0078: TestBench/alu_TB.vhd : (44, 3): Unknown identifier "input_2".
+# Error: COMP96_0133: TestBench/alu_TB.vhd : (44, 3): Cannot find object declaration.
+# Compile Configuration "TESTBENCH_FOR_alu"
+# Error: COMP96_0209: TestBench/alu_TB.vhd : (55, 6): Unknown architecture name used in configuration declaration.
+# Compile failure 5 Errors 0 Warnings  Analysis time :  32.0 [ms]
+acom -O3 -e 100 -work Design1_LOAD_SUM_SUB_JNZ -2002  $dsn/src/TestBench/alu_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/TestBench/alu_TB.vhd
+# Compile Entity "alu_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "alu_tb"
+# Compile Configuration "TESTBENCH_FOR_alu"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+SetActiveLib -work
+comp -include "$dsn\src\ALU.vhd" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/ALU.vhd
+# Compile Entity "ALU"
+# Compile Architecture "ALU" of Entity "ALU"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+comp -include "$dsn\src\TestBench\alu_TB.vhd" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/TestBench/alu_TB.vhd
+# Compile Entity "alu_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "alu_tb"
+# Compile Configuration "TESTBENCH_FOR_alu"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+asim +access +r TESTBENCH_FOR_alu 
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5398 kB (elbread=427 elab2=4832 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Faryar\Desktop\Simple-Processor-VHDL\CustomProcessor\Design1_LOAD_SUM_SUB_JNZ\src\wave.asdb
+#  2:18 AM, Sunday, July 02, 2023
+#  Simulation has been initialized
+wave 
+wave -noreg in1
+wave -noreg in2
+wave -noreg cmd
+wave -noreg result
+# # The following lines can be used for timing simulation
+# # acom <backannotated_vhdl_file_name>
+# # comp -include "$dsn\src\TestBench\alu_TB_tim_cfg.vhd" 
+# # asim +access +r TIMING_FOR_alu 
+# VSIM: 4 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/wave.asdb'.
+run 30ns
+# KERNEL: stopped at time: 30 ns
+endsim
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work Design1_LOAD_SUM_SUB_JNZ -2002  $dsn/src/TestBench/alu_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/TestBench/alu_TB.vhd
+# Compile Entity "alu_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "alu_tb"
+# Compile Configuration "TESTBENCH_FOR_alu"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+SetActiveLib -work
+comp -include "$dsn\src\ALU.vhd" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/ALU.vhd
+# Compile Entity "ALU"
+# Compile Architecture "ALU" of Entity "ALU"
+# Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]
+comp -include "$dsn\src\TestBench\alu_TB.vhd" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/TestBench/alu_TB.vhd
+# Compile Entity "alu_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "alu_tb"
+# Compile Configuration "TESTBENCH_FOR_alu"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+asim +access +r TESTBENCH_FOR_alu 
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5398 kB (elbread=427 elab2=4832 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Faryar\Desktop\Simple-Processor-VHDL\CustomProcessor\Design1_LOAD_SUM_SUB_JNZ\src\wave.asdb
+#  2:18 AM, Sunday, July 02, 2023
+#  Simulation has been initialized
+wave 
+wave -noreg in1
+wave -noreg in2
+wave -noreg cmd
+wave -noreg result
+# # The following lines can be used for timing simulation
+# # acom <backannotated_vhdl_file_name>
+# # comp -include "$dsn\src\TestBench\alu_TB_tim_cfg.vhd" 
+# # asim +access +r TIMING_FOR_alu 
+# VSIM: 4 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/wave.asdb'.
+run 30ns
+# KERNEL: stopped at time: 30 ns
+# Waveform file 'C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/Results/ALU_TB_Res.awc' connected to 'C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/Results/ALU_TB_Res.asdb'.
+# Adding file C:\Users\Faryar\Desktop\Simple-Processor-VHDL\CustomProcessor\Design1_LOAD_SUM_SUB_JNZ\src\Results\ALU_TB_Res.asdb ... Done
+# Adding file C:\Users\Faryar\Desktop\Simple-Processor-VHDL\CustomProcessor\Design1_LOAD_SUM_SUB_JNZ\src\Results\ALU_TB_Res.awc ... Done
+endsim
+# VSIM: Simulation has finished.
+# Waveform file 'C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/Results/ALU_TB_Res.awc' connected to 'C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/Results/ALU_TB_Res.asdb'.
+# Waveform file 'untitled.awc' connected to 'C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/Results/ALU_TB_Res.asdb'.
+acom -O3 -e 100 -work Design1_LOAD_SUM_SUB_JNZ -2002  $dsn/src/MRegester.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/MRegester.vhd
+# Compile Entity "MRegester"
+# Compile Architecture "MRegester" of Entity "MRegester"
+# Error: COMP96_0078: MRegester.vhd : (30, 16): Unknown identifier "R0".
+# Error: COMP96_0133: MRegester.vhd : (30, 16): Cannot find object declaration.
+# Error: COMP96_0077: MRegester.vhd : (30, 16): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
+# Error: COMP96_0078: MRegester.vhd : (36, 3): Unknown identifier "ROUT0".
+# Error: COMP96_0133: MRegester.vhd : (36, 3): Cannot find object declaration.
+# Error: COMP96_0078: MRegester.vhd : (38, 19): Unknown identifier "Req".
+# Error: COMP96_0133: MRegester.vhd : (38, 19): Cannot find object declaration.
+# Error: COMP96_0077: MRegester.vhd : (38, 18): Undefined type of expression. Expected type 'BOOLEAN'.
+# Compile failure 8 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -e 100 -work Design1_LOAD_SUM_SUB_JNZ -2002  $dsn/src/MRegester.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/MRegester.vhd
+# Compile Entity "MRegester"
+# Compile Architecture "MRegester" of Entity "MRegester"
+# Error: COMP96_0078: MRegester.vhd : (30, 16): Unknown identifier "R0".
+# Error: COMP96_0133: MRegester.vhd : (30, 16): Cannot find object declaration.
+# Error: COMP96_0077: MRegester.vhd : (30, 16): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
+# Error: COMP96_0078: MRegester.vhd : (36, 3): Unknown identifier "ROUT0".
+# Error: COMP96_0133: MRegester.vhd : (36, 3): Cannot find object declaration.
+# Error: COMP96_0078: MRegester.vhd : (38, 19): Unknown identifier "Req".
+# Error: COMP96_0133: MRegester.vhd : (38, 19): Cannot find object declaration.
+# Error: COMP96_0077: MRegester.vhd : (38, 18): Undefined type of expression. Expected type 'BOOLEAN'.
+# Compile failure 8 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -e 100 -work Design1_LOAD_SUM_SUB_JNZ -2002  $dsn/src/MRegester.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/MRegester.vhd
+# Compile Entity "MRegester"
+# Compile Architecture "MRegester" of Entity "MRegester"
+# Error: COMP96_0078: MRegester.vhd : (30, 16): Unknown identifier "R0".
+# Error: COMP96_0133: MRegester.vhd : (30, 16): Cannot find object declaration.
+# Error: COMP96_0077: MRegester.vhd : (30, 16): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
+# Error: COMP96_0078: MRegester.vhd : (36, 3): Unknown identifier "ROUT0".
+# Error: COMP96_0133: MRegester.vhd : (36, 3): Cannot find object declaration.
+# Compile failure 5 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work Design1_LOAD_SUM_SUB_JNZ -2002  $dsn/src/MRegester.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/MRegester.vhd
+# Compile Entity "MRegester"
+# Compile Architecture "MRegester" of Entity "MRegester"
+# Error: COMP96_0078: MRegester.vhd : (30, 16): Unknown identifier "R0".
+# Error: COMP96_0133: MRegester.vhd : (30, 16): Cannot find object declaration.
+# Error: COMP96_0077: MRegester.vhd : (30, 16): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -e 100 -work Design1_LOAD_SUM_SUB_JNZ -2002  $dsn/src/MRegester.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/MRegester.vhd
+# Compile Entity "MRegester"
+# Compile Architecture "MRegester" of Entity "MRegester"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work Design1_LOAD_SUM_SUB_JNZ -2002  $dsn/src/MRegester.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/MRegester.vhd
+# Compile Entity "MRegester"
+# Compile Architecture "MRegester" of Entity "MRegester"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work Design1_LOAD_SUM_SUB_JNZ -2002  $dsn/src/TestBench/mregester_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/TestBench/mregester_TB.vhd
+# Compile Entity "mregester_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "mregester_tb"
+# Compile Configuration "TESTBENCH_FOR_mregester"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [ms]
+SetActiveLib -work
+comp -include "$dsn\src\MRegester.vhd" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/MRegester.vhd
+# Compile Entity "MRegester"
+# Compile Architecture "MRegester" of Entity "MRegester"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+comp -include "$dsn\src\TestBench\mregester_TB.vhd" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/TestBench/mregester_TB.vhd
+# Compile Entity "mregester_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "mregester_tb"
+# Compile Configuration "TESTBENCH_FOR_mregester"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+asim +access +r TESTBENCH_FOR_mregester 
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6423 kB (elbread=427 elab2=5857 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Faryar\Desktop\Simple-Processor-VHDL\CustomProcessor\Design1_LOAD_SUM_SUB_JNZ\src\wave.asdb
+#  2:52 AM, Sunday, July 02, 2023
+#  Simulation has been initialized
+wave 
+wave -noreg RIN
+wave -noreg CLK
+wave -noreg LD
+wave -noreg ROUT
+wave -noreg ZR
+# # The following lines can be used for timing simulation
+# # acom <backannotated_vhdl_file_name>
+# # comp -include "$dsn\src\TestBench\mregester_TB_tim_cfg.vhd" 
+# # asim +access +r TIMING_FOR_mregester 
+# VSIM: 5 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/wave.asdb'.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /mregester_tb/UUT,  Process: line__36.
+# KERNEL: stopped at time: 100 ns
+# Waveform file 'C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/Results/MRegester_TB_Res.awc' connected to 'C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/Results/MRegester_TB_Res.asdb'.
+# Adding file C:\Users\Faryar\Desktop\Simple-Processor-VHDL\CustomProcessor\Design1_LOAD_SUM_SUB_JNZ\src\Results\MRegester_TB_Res.asdb ... Done
+# Adding file C:\Users\Faryar\Desktop\Simple-Processor-VHDL\CustomProcessor\Design1_LOAD_SUM_SUB_JNZ\src\Results\MRegester_TB_Res.awc ... Done
+acom -O3 -e 100 -work Design1_LOAD_SUM_SUB_JNZ -2002  $dsn/src/IR_Regester.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/IR_Regester.vhd
+# Compile Entity "IR_Regester"
+# Compile Architecture "IR_Regester" of Entity "IR_Regester"
+# Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -e 100 -work Design1_LOAD_SUM_SUB_JNZ -2002  $dsn/src/IR_Regester.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/IR_Regester.vhd
+# Compile Entity "IR_Regester"
+# Error: COMP96_0018: IR_Regester.vhd : (11, 3): Identifier expected.
+# Compile Architecture "IR_Regester" of Entity "IR_Regester"
+# Compile failure 1 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work Design1_LOAD_SUM_SUB_JNZ -2002  $dsn/src/IR_Regester.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/IR_Regester.vhd
+# Compile Entity "IR_Regester"
+# Compile Architecture "IR_Regester" of Entity "IR_Regester"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work Design1_LOAD_SUM_SUB_JNZ -2002  $dsn/src/TestBench/ir_regester_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/TestBench/ir_regester_TB.vhd
+# Compile Entity "ir_regester_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "ir_regester_tb"
+# Compile Configuration "TESTBENCH_FOR_ir_regester"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+SetActiveLib -work
+comp -include "$dsn\src\IR_Regester.vhd" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/IR_Regester.vhd
+# Compile Entity "IR_Regester"
+# Compile Architecture "IR_Regester" of Entity "IR_Regester"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+comp -include "$dsn\src\TestBench\ir_regester_TB.vhd" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/TestBench/ir_regester_TB.vhd
+# Compile Entity "ir_regester_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "ir_regester_tb"
+# Compile Configuration "TESTBENCH_FOR_ir_regester"
+# Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]
+asim +access +r TESTBENCH_FOR_ir_regester 
+# VSIM: Simulation has finished.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5399 kB (elbread=427 elab2=4833 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Faryar\Desktop\Simple-Processor-VHDL\CustomProcessor\Design1_LOAD_SUM_SUB_JNZ\src\wave.asdb
+#  2:59 AM, Sunday, July 02, 2023
+#  Simulation has been initialized
+wave 
+wave -noreg RIN
+wave -noreg CLK
+wave -noreg LD
+wave -noreg ROUT
+# # The following lines can be used for timing simulation
+# # acom <backannotated_vhdl_file_name>
+# # comp -include "$dsn\src\TestBench\ir_regester_TB_tim_cfg.vhd" 
+# # asim +access +r TIMING_FOR_ir_regester 
+# VSIM: 4 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/wave.asdb'.
+run 100ns
+# KERNEL: stopped at time: 100 ns
+# Waveform file 'C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/Results/IR_Regester_TB_Res.awc' connected to 'C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/Results/IR_Regester_TB_Res.asdb'.
+# Adding file C:\Users\Faryar\Desktop\Simple-Processor-VHDL\CustomProcessor\Design1_LOAD_SUM_SUB_JNZ\src\Results\IR_Regester_TB_Res.asdb ... Done
+# Adding file C:\Users\Faryar\Desktop\Simple-Processor-VHDL\CustomProcessor\Design1_LOAD_SUM_SUB_JNZ\src\Results\IR_Regester_TB_Res.awc ... Done
+acom -O3 -e 100 -work Design1_LOAD_SUM_SUB_JNZ -2002  $dsn/src/PC_Regester.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/PC_Regester.vhd
+# Compile Entity "PC_Regester"
+# Compile Architecture "PC_Regester" of Entity "PC_Regester"
+# Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -e 100 -work Design1_LOAD_SUM_SUB_JNZ -2002  $dsn/src/MRegester.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/MRegester.vhd
+# Compile Entity "MRegester"
+# Compile Architecture "MRegester" of Entity "MRegester"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work Design1_LOAD_SUM_SUB_JNZ -2002  $dsn/src/IR_Regester.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/IR_Regester.vhd
+# Compile Entity "IR_Regester"
+# Compile Architecture "IR_Regester" of Entity "IR_Regester"
+# Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -e 100 -work Design1_LOAD_SUM_SUB_JNZ -2002  $dsn/src/PC_Regester.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/PC_Regester.vhd
+# Compile Entity "PC_Regester"
+# Compile Architecture "PC_Regester" of Entity "PC_Regester"
+# Error: COMP96_0078: PC_Regester.vhd : (38, 2): Unknown identifier "ZR".
+# Error: COMP96_0133: PC_Regester.vhd : (38, 2): Cannot find object declaration.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -e 100 -work Design1_LOAD_SUM_SUB_JNZ -2002  $dsn/src/PC_Regester.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/PC_Regester.vhd
+# Compile Entity "PC_Regester"
+# Compile Architecture "PC_Regester" of Entity "PC_Regester"
+# Error: COMP96_0019: PC_Regester.vhd : (36, 6): Keyword 'if' expected.
+# Error: COMP96_0015: PC_Regester.vhd : (36, 6): ';' expected.
+# Error: COMP96_0019: PC_Regester.vhd : (43, 5): Keyword 'process' expected.
+# Error: COMP96_0019: PC_Regester.vhd : (46, 0): Keyword 'end' expected.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -e 100 -work Design1_LOAD_SUM_SUB_JNZ -2002  $dsn/src/PC_Regester.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/PC_Regester.vhd
+# Compile Entity "PC_Regester"
+# Compile Architecture "PC_Regester" of Entity "PC_Regester"
+# Error: COMP96_0019: PC_Regester.vhd : (28, 3): Keyword 'end' expected.
+# Error: COMP96_0015: PC_Regester.vhd : (31, 8): ';' expected.
+# Error: COMP96_0016: PC_Regester.vhd : (31, 10): Design unit declaration expected.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -e 100 -work Design1_LOAD_SUM_SUB_JNZ -2002  $dsn/src/PC_Regester.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/PC_Regester.vhd
+# Compile Entity "PC_Regester"
+# Compile Architecture "PC_Regester" of Entity "PC_Regester"
+# Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -e 100 -work Design1_LOAD_SUM_SUB_JNZ -2002  $dsn/src/IR_Regester.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/IR_Regester.vhd
+# Compile Entity "IR_Regester"
+# Compile Architecture "IR_Regester" of Entity "IR_Regester"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -e 100 -work Design1_LOAD_SUM_SUB_JNZ -2002  $dsn/src/TestBench/ir_regester_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/TestBench/ir_regester_TB.vhd
+# Compile Entity "ir_regester_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "ir_regester_tb"
+# Compile Configuration "TESTBENCH_FOR_ir_regester"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work Design1_LOAD_SUM_SUB_JNZ -2002  $dsn/src/PC_Regester.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/PC_Regester.vhd
+# Compile Entity "PC_Regester"
+# Compile Architecture "PC_Regester" of Entity "PC_Regester"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -e 100 -work Design1_LOAD_SUM_SUB_JNZ -2002  $dsn/src/TestBench/pc_regester_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/TestBench/pc_regester_TB.vhd
+# Compile Entity "pc_regester_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "pc_regester_tb"
+# Compile Configuration "TESTBENCH_FOR_pc_regester"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+SetActiveLib -work
+comp -include "$dsn\src\PC_Regester.vhd" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/PC_Regester.vhd
+# Compile Entity "PC_Regester"
+# Compile Architecture "PC_Regester" of Entity "PC_Regester"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+comp -include "$dsn\src\TestBench\pc_regester_TB.vhd" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/TestBench/pc_regester_TB.vhd
+# Compile Entity "pc_regester_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "pc_regester_tb"
+# Compile Configuration "TESTBENCH_FOR_pc_regester"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [ms]
+asim +access +r TESTBENCH_FOR_pc_regester 
+# VSIM: Simulation has finished.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6423 kB (elbread=427 elab2=5857 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Faryar\Desktop\Simple-Processor-VHDL\CustomProcessor\Design1_LOAD_SUM_SUB_JNZ\src\wave.asdb
+#  3:12 AM, Sunday, July 02, 2023
+#  Simulation has been initialized
+wave 
+wave -noreg RIN
+wave -noreg CLK
+wave -noreg LD
+wave -noreg INC
+wave -noreg CLR
+wave -noreg ROUT
+# # The following lines can be used for timing simulation
+# # acom <backannotated_vhdl_file_name>
+# # comp -include "$dsn\src\TestBench\pc_regester_TB_tim_cfg.vhd" 
+# # asim +access +r TIMING_FOR_pc_regester 
+# VSIM: 6 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/wave.asdb'.
+run 100ns
+# KERNEL: stopped at time: 100 ns
+acom -O3 -e 100 -work Design1_LOAD_SUM_SUB_JNZ -2002  $dsn/src/TestBench/pc_regester_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/TestBench/pc_regester_TB.vhd
+# Compile Entity "pc_regester_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "pc_regester_tb"
+# Compile Configuration "TESTBENCH_FOR_pc_regester"
+# Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -e 100 -work Design1_LOAD_SUM_SUB_JNZ -2002  $dsn/src/TestBench/pc_regester_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/TestBench/pc_regester_TB.vhd
+# Compile Entity "pc_regester_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "pc_regester_tb"
+# Compile Configuration "TESTBENCH_FOR_pc_regester"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+SetActiveLib -work
+comp -include "$dsn\src\PC_Regester.vhd" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/PC_Regester.vhd
+# Compile Entity "PC_Regester"
+# Compile Architecture "PC_Regester" of Entity "PC_Regester"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+comp -include "$dsn\src\TestBench\pc_regester_TB.vhd" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/TestBench/pc_regester_TB.vhd
+# Compile Entity "pc_regester_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "pc_regester_tb"
+# Compile Configuration "TESTBENCH_FOR_pc_regester"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [ms]
+asim +access +r TESTBENCH_FOR_pc_regester 
+# VSIM: Simulation has finished.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6424 kB (elbread=427 elab2=5858 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Faryar\Desktop\Simple-Processor-VHDL\CustomProcessor\Design1_LOAD_SUM_SUB_JNZ\src\wave.asdb
+#  3:14 AM, Sunday, July 02, 2023
+#  Simulation has been initialized
+wave 
+wave -noreg RIN
+wave -noreg CLK
+wave -noreg LD
+wave -noreg INC
+wave -noreg CLR
+wave -noreg ROUT
+# # The following lines can be used for timing simulation
+# # acom <backannotated_vhdl_file_name>
+# # comp -include "$dsn\src\TestBench\pc_regester_TB_tim_cfg.vhd" 
+# # asim +access +r TIMING_FOR_pc_regester 
+# VSIM: 6 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/wave.asdb'.
+run 100ns
+# KERNEL: stopped at time: 100 ns
+acom -O3 -e 100 -work Design1_LOAD_SUM_SUB_JNZ -2002  $dsn/src/TestBench/pc_regester_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/TestBench/pc_regester_TB.vhd
+# Compile Entity "pc_regester_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "pc_regester_tb"
+# Compile Configuration "TESTBENCH_FOR_pc_regester"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [ms]
+SetActiveLib -work
+comp -include "$dsn\src\PC_Regester.vhd" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/PC_Regester.vhd
+# Compile Entity "PC_Regester"
+# Compile Architecture "PC_Regester" of Entity "PC_Regester"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+comp -include "$dsn\src\TestBench\pc_regester_TB.vhd" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/TestBench/pc_regester_TB.vhd
+# Compile Entity "pc_regester_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "pc_regester_tb"
+# Compile Configuration "TESTBENCH_FOR_pc_regester"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+asim +access +r TESTBENCH_FOR_pc_regester 
+# VSIM: Simulation has finished.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6424 kB (elbread=427 elab2=5858 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Faryar\Desktop\Simple-Processor-VHDL\CustomProcessor\Design1_LOAD_SUM_SUB_JNZ\src\wave.asdb
+#  3:15 AM, Sunday, July 02, 2023
+#  Simulation has been initialized
+wave 
+wave -noreg RIN
+wave -noreg CLK
+wave -noreg LD
+wave -noreg INC
+wave -noreg CLR
+wave -noreg ROUT
+# # The following lines can be used for timing simulation
+# # acom <backannotated_vhdl_file_name>
+# # comp -include "$dsn\src\TestBench\pc_regester_TB_tim_cfg.vhd" 
+# # asim +access +r TIMING_FOR_pc_regester 
+# VSIM: 6 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/wave.asdb'.
+run 100ns
+# KERNEL: stopped at time: 100 ns
+# Waveform file 'C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/Results/PC_Regester_TB_Res.awc' connected to 'C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/Results/PC_Regester_TB_Res.asdb'.
+# Adding file C:\Users\Faryar\Desktop\Simple-Processor-VHDL\CustomProcessor\Design1_LOAD_SUM_SUB_JNZ\src\Results\PC_Regester_TB_Res.asdb ... Done
+# Adding file C:\Users\Faryar\Desktop\Simple-Processor-VHDL\CustomProcessor\Design1_LOAD_SUM_SUB_JNZ\src\Results\PC_Regester_TB_Res.awc ... Done
+acom -O3 -e 100 -work Design1_LOAD_SUM_SUB_JNZ -2002  $dsn/src/Main.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/Main.vhd
+# Compile Entity "Main"
+# Error: COMP96_0018: Main.vhd : (4, 7): Identifier expected.
+# Compile Architecture "Main" of Entity "Main"
+# Error: COMP96_0015: Main.vhd : (12, 1): ';' expected.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work Design1_LOAD_SUM_SUB_JNZ -2002  $dsn/src/Main.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/Main.vhd
+# Compile Entity "Main"
+# Error: COMP96_0078: Main.vhd : (3, 13): Unknown identifier "STD_LOGIC".
+# Error: COMP96_0064: Main.vhd : (3, 13): Unknown type.
+# Compile Architecture "Main" of Entity "Main"
+# Error: COMP96_0015: Main.vhd : (12, 1): ';' expected.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -e 100 -work Design1_LOAD_SUM_SUB_JNZ -2002  $dsn/src/Main.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/Main.vhd
+# Compile Entity "Main"
+# Error: COMP96_0078: Main.vhd : (3, 13): Unknown identifier "STD_LOGIC".
+# Error: COMP96_0064: Main.vhd : (3, 13): Unknown type.
+# Compile Architecture "Main" of Entity "Main"
+# Error: COMP96_0015: Main.vhd : (12, 1): ';' expected.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -e 100 -work Design1_LOAD_SUM_SUB_JNZ -2002  $dsn/src/Main.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/Main.vhd
+# Compile Entity "Main"
+# Compile Architecture "Main" of Entity "Main"
+# Error: COMP96_0015: Main.vhd : (15, 1): ';' expected.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -e 100 -work Design1_LOAD_SUM_SUB_JNZ -2002  $dsn/src/Main.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/Main.vhd
+# Compile Entity "Main"
+# Compile Architecture "Main" of Entity "Main"
+# Error: COMP96_0066: Main.vhd : (45, 9): Cannot find "MRegester" procedure declaration.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -e 100 -work Design1_LOAD_SUM_SUB_JNZ -2002  $dsn/src/Main.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/Main.vhd
+# Compile Entity "Main"
+# Compile Architecture "Main" of Entity "Main"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -e 100 -work Design1_LOAD_SUM_SUB_JNZ -2002  $dsn/src/Main.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/Main.vhd
+# Compile Entity "Main"
+# Compile Architecture "Main" of Entity "Main"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -e 100 -work Design1_LOAD_SUM_SUB_JNZ -2002  $dsn/src/Main.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/Main.vhd
+# Compile Entity "Main"
+# Compile Architecture "Main" of Entity "Main"
+# Error: COMP96_0207: Main.vhd : (54, 2): No actual specified for local port "INC".
+# Error: COMP96_0207: Main.vhd : (54, 2): No actual specified for local port "CLR".
+# Compile failure 2 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -e 100 -work Design1_LOAD_SUM_SUB_JNZ -2002  $dsn/src/Main.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/Main.vhd
+# Compile Entity "Main"
+# Compile Architecture "Main" of Entity "Main"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -e 100 -work Design1_LOAD_SUM_SUB_JNZ -2002  $dsn/src/Main.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/Main.vhd
+# Compile Entity "Main"
+# Compile Architecture "Main" of Entity "Main"
+# Error: COMP96_0122: Main.vhd : (66, 2): Symbol "ALU" has already been declared in this scope.
+# Error: COMP96_0641: Main.vhd : (66, 13): Name "ALU" does not refer to a component declaration.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -e 100 -work Design1_LOAD_SUM_SUB_JNZ -2002  $dsn/src/Main.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/Main.vhd
+# Compile Entity "Main"
+# Compile Architecture "Main" of Entity "Main"
+# Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -e 100 -work Design1_LOAD_SUM_SUB_JNZ -2002  $dsn/src/Memory.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/Memory.vhd
+# Compile Entity "Memory"
+# Compile Architecture "Memory" of Entity "Memory"
+# Error: COMP96_0127: Memory.vhd : (15, 26): Improper aggregate length. Expected length is 64.
+# Error: COMP96_0078: Memory.vhd : (18, 1): Unknown identifier "m".
+# Error: COMP96_0133: Memory.vhd : (18, 1): Cannot find object declaration.
+# Error: COMP96_0078: Memory.vhd : (19, 1): Unknown identifier "m".
+# Error: COMP96_0133: Memory.vhd : (19, 1): Cannot find object declaration.
+# Error: COMP96_0078: Memory.vhd : (20, 1): Unknown identifier "m".
+# Error: COMP96_0133: Memory.vhd : (20, 1): Cannot find object declaration.
+# Error: COMP96_0078: Memory.vhd : (21, 1): Unknown identifier "m".
+# Error: COMP96_0133: Memory.vhd : (21, 1): Cannot find object declaration.
+# Error: COMP96_0078: Memory.vhd : (22, 1): Unknown identifier "m".
+# Error: COMP96_0133: Memory.vhd : (22, 1): Cannot find object declaration.
+# Error: COMP96_0078: Memory.vhd : (23, 1): Unknown identifier "m".
+# Error: COMP96_0133: Memory.vhd : (23, 1): Cannot find object declaration.
+# Error: COMP96_0078: Memory.vhd : (24, 1): Unknown identifier "m".
+# Error: COMP96_0133: Memory.vhd : (24, 1): Cannot find object declaration.
+# Error: COMP96_0078: Memory.vhd : (25, 1): Unknown identifier "m".
+# Error: COMP96_0133: Memory.vhd : (25, 1): Cannot find object declaration.
+# Error: COMP96_0078: Memory.vhd : (26, 1): Unknown identifier "m".
+# Error: COMP96_0133: Memory.vhd : (26, 1): Cannot find object declaration.
+# Error: COMP96_0078: Memory.vhd : (27, 1): Unknown identifier "m".
+# Error: COMP96_0133: Memory.vhd : (27, 1): Cannot find object declaration.
+# Error: COMP96_0078: Memory.vhd : (28, 1): Unknown identifier "m".
+# Error: COMP96_0133: Memory.vhd : (28, 1): Cannot find object declaration.
+# Error: COMP96_0078: Memory.vhd : (29, 1): Unknown identifier "m".
+# Error: COMP96_0133: Memory.vhd : (29, 1): Cannot find object declaration.
+# Error: COMP96_0078: Memory.vhd : (30, 1): Unknown identifier "m".
+# Error: COMP96_0133: Memory.vhd : (30, 1): Cannot find object declaration.
+# Error: COMP96_0078: Memory.vhd : (32, 9): Unknown identifier "m".
+# Error: COMP96_0133: Memory.vhd : (32, 9): Cannot find object declaration.
+# Error: COMP96_0289: Memory.vhd : (32, 9): Prefix of index must be an array.
+# Error: COMP96_0077: Memory.vhd : (32, 9): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
+# Compile failure 31 Errors 0 Warnings  Analysis time :  78.0 [ms]
+acom -O3 -e 100 -work Design1_LOAD_SUM_SUB_JNZ -2002  $dsn/src/Memory.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/Memory.vhd
+# Compile Entity "Memory"
+# Compile Architecture "Memory" of Entity "Memory"
+# Error: COMP96_0127: Memory.vhd : (15, 26): Improper aggregate length. Expected length is 64.
+# Error: COMP96_0078: Memory.vhd : (20, 9): Unknown identifier "m".
+# Error: COMP96_0133: Memory.vhd : (20, 9): Cannot find object declaration.
+# Error: COMP96_0289: Memory.vhd : (20, 9): Prefix of index must be an array.
+# Error: COMP96_0077: Memory.vhd : (20, 9): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
+# Compile failure 5 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -e 100 -work Design1_LOAD_SUM_SUB_JNZ -2002  $dsn/src/Memory.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/Memory.vhd
+# Compile Entity "Memory"
+# Compile Architecture "Memory" of Entity "Memory"
+# Error: COMP96_0127: Memory.vhd : (15, 26): Improper aggregate length. Expected length is 64.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [ms]
