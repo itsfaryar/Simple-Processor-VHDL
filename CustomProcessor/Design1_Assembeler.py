@@ -15,7 +15,7 @@ def getCodeInBinaryFormat(file_path):
     try:
         for line in f:
             
-            parts = line.upper().replace(",","").split()
+            parts = line.upper().replace(","," ").split()
             if parts[0] == "LOAD":
                output.append( "00" + reg_dic[parts[1]] + "01")
                output.append(getIn6bitBinaryFormat(int(parts[2])))
