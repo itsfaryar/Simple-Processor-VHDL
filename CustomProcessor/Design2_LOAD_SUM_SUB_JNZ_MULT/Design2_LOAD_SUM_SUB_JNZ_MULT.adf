@@ -1,0 +1,80 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=Design2_LOAD_SUM_SUB_JNZ_MULT
+[Library]
+Design2_LOAD_SUM_SUB_JNZ_MULT=.\Design2_LOAD_SUM_SUB_JNZ_MULT\Design2_LOAD_SUM_SUB_JNZ_MULT.lib
+[$LibMap$]
+Design2_LOAD_SUM_SUB_JNZ_MULT=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+FLOWTOOLS=NONE
+REFRESH_FLOW=1
+FAMILY=
+fileopenfolder=C:\Users\Faryar\Desktop\Simple-Processor-VHDL\CustomProcessor\Design1_LOAD_SUM_SUB_JNZ\src
+[Files]
+/ALU.vhd=-1
+/ControlUnit.vhd=-1
+/IR_Regester.vhd=-1
+/Main.vhd=-1
+/Memory.vhd=-1
+/Memory.vhdl=-1
+/MRegester.vhd=-1
+/MUX2x2.vhd=-1
+/MUX4x2.vhd=-1
+/PC_Regester.vhd=-1
+/MUX2x2.vhd=-1
+[Files.Data]
+.\src\ALU.vhd=VHDL Source Code
+.\src\ControlUnit.vhd=VHDL Source Code
+.\src\IR_Regester.vhd=VHDL Source Code
+.\src\Main.vhd=VHDL Source Code
+.\src\Memory.vhd=VHDL Source Code
+.\src\Memory.vhdl=VHDL Source Code
+.\src\MRegester.vhd=VHDL Source Code
+.\src\MUX2x2.vhd=VHDL Source Code
+.\src\MUX4x2.vhd=VHDL Source Code
+.\src\PC_Regester.vhd=VHDL Source Code
+.\src\MUX2x2.vhd=VHDL Source Code
+[folders]
+name0=ALINT-PRO Workspaces
+directory0=C:\Users\Faryar\Desktop\Simple-Processor-VHDL\CustomProcessor\Design2_LOAD_SUM_SUB_JNZ_MULT\
+extension0=alintws
+name1=Coverage Databases
+directory1=C:\Users\Faryar\Desktop\Simple-Processor-VHDL\CustomProcessor\Design2_LOAD_SUM_SUB_JNZ_MULT\
+extension1=acdb
+name2=Dll Libraries
+directory2=C:\Users\Faryar\Desktop\Simple-Processor-VHDL\CustomProcessor\Design2_LOAD_SUM_SUB_JNZ_MULT\
+extension2=dll
+name3=Event Lists
+directory3=C:\Users\Faryar\Desktop\Simple-Processor-VHDL\CustomProcessor\Design2_LOAD_SUM_SUB_JNZ_MULT\
+extension3=lst
+name4=HTML Files
+directory4=C:\Users\Faryar\Desktop\Simple-Processor-VHDL\CustomProcessor\Design2_LOAD_SUM_SUB_JNZ_MULT\
+extension4=htm;html
+name5=Log Files
+directory5=C:\Users\Faryar\Desktop\Simple-Processor-VHDL\CustomProcessor\Design2_LOAD_SUM_SUB_JNZ_MULT\
+extension5=log;htm;xml;txt
+name6=Matlab/Simulink Files
+directory6=C:\Users\Faryar\Desktop\Simple-Processor-VHDL\CustomProcessor\
+extension6=m;mdl;slx
+name7=Memory Files
+directory7=C:\Users\Faryar\Desktop\Simple-Processor-VHDL\CustomProcessor\Design2_LOAD_SUM_SUB_JNZ_MULT\
+extension7=mem;mif;hex
+name8=PDF Files
+directory8=C:\Users\Faryar\Desktop\Simple-Processor-VHDL\CustomProcessor\Design2_LOAD_SUM_SUB_JNZ_MULT\
+extension8=pdf
+name9=Profiler Databases
+directory9=C:\Users\Faryar\Desktop\Simple-Processor-VHDL\CustomProcessor\Design2_LOAD_SUM_SUB_JNZ_MULT\
+extension9=tbp
+name10=Script Files
+directory10=C:\Users\Faryar\Desktop\Simple-Processor-VHDL\CustomProcessor\Design2_LOAD_SUM_SUB_JNZ_MULT\
+extension10=do;tcl;pl
+name11=Waveform Files
+directory11=C:\Users\Faryar\Desktop\Simple-Processor-VHDL\CustomProcessor\Design2_LOAD_SUM_SUB_JNZ_MULT\
+extension11=asdb;awc;asdbc;asdbe

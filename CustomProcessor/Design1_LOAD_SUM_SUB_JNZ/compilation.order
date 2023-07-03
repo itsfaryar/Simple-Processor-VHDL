@@ -6,6 +6,7 @@
 .\src\Memory.vhd
 .\src\ControlUnit.vhd
 .\src\MUX4x2.vhd
+.\src\MUX2x2.vhd
 .\src\TestBench\alu_TB.vhd
 .\src\TestBench\mregester_TB.vhd
 .\src\TestBench\ir_regester_TB.vhd

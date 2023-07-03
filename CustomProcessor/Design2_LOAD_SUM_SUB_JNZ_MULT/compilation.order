@@ -1,0 +1,8 @@
+.\src\ALU.vhd
+.\src\ControlUnit.vhd
+.\src\IR_Regester.vhd
+.\src\Main.vhd
+.\src\Memory.vhd
+.\src\MRegester.vhd
+.\src\MUX2x2.vhd
+.\src\PC_Regester.vhd

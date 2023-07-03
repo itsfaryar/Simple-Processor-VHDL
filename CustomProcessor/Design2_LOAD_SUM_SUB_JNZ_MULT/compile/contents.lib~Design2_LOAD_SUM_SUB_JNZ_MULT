@@ -1,0 +1,8 @@
+9
+~E 1 "../src/ALU.vhd" 6 ALU
+~A 1 "../src/ALU.vhd" 15 ALU
+~E 1 "../src/ControlUnit.vhd" 7 ControlUnit
+~A 1 "../src/ControlUnit.vhd" 20 ControlUnit
+~E 1 "../src/IR_Regester.vhd" 5 IR_Regester
+~A 1 "../src/IR_Regester.vhd" 16 IR_Regester
+~E 1 "../src/Main.vhd" 5 Main

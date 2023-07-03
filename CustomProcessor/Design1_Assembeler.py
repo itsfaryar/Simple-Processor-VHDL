@@ -15,9 +15,9 @@ def getCodeInBinaryFormat(file_path):
     try:
         for line in f:
             
-            parts = line.upper().split()
+            parts = line.upper().replace(",","").split()
             if parts[0] == "LOAD":
-               output.append( "00" + reg_dic[parts[1]] + "00")
+               output.append( "00" + reg_dic[parts[1]] + "01")
                output.append(getIn6bitBinaryFormat(int(parts[2])))
             elif parts[0] == "ADD":
                 output.append("01" + reg_dic[parts[1]] + reg_dic[parts[2]])
@@ -26,6 +26,8 @@ def getCodeInBinaryFormat(file_path):
             elif parts[0] == "JNZ":
                 output.append("11" + reg_dic[parts[1]] + "00")
                 output.append(getIn6bitBinaryFormat(int(parts[2])))
+            elif parts[0] == "HLT":
+                output.append("000000")
             else:
                 print("Invalid OP code: " + parts[0] + "")
                 return ""

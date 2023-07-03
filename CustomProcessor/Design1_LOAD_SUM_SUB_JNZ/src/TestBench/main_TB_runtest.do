@@ -15,8 +15,6 @@ wave -noreg Reg0
 wave -noreg Reg1
 wave -noreg Reg2
 wave -noreg Reg3
-wave -noreg Select0
-wave -noreg Select1
 wave -noreg ALU_out
 wave -noreg bus_data
 wave -noreg Memory_Data

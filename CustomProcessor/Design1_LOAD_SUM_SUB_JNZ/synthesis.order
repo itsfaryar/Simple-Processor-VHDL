@@ -11,3 +11,4 @@ i<>.\src\Memory.vhd
 i<>.\src\ControlUnit.vhd
 i<>.\src\MUX.vhd
 i<>.\src\TestBench\main_TB.vhd
+i<>.\src\Mux2x2.vhd

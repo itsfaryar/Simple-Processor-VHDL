@@ -1,0 +1,55 @@
+timestamp=1688413207813
+
+[~A]
+ModifyID=9
+Version=74
+
+[~MFT]
+0=4|0Design2_LOAD_SUM_SUB_JNZ_MULT.mgf|14548|6159
+1=0|1Design2_LOAD_SUM_SUB_JNZ_MULT.mgf|7702|3604
+3=0|3Design2_LOAD_SUM_SUB_JNZ_MULT.mgf|4526|2077
+
+[alu]
+A/alu=A/ALU 21|../src/ALU.vhd|15|1*3604
+BinW64/alu=3*2077
+I=0*5889
+I/alu=I/ALU 0*6745
+M=11|2|vef|1688410448376|../src/ALU.vhd|0*5489*0x6d2e5f95dd6009c61ceae00888788b6b6479dead|0*5818*0x23b75c12e3e89f2ef000564498faa8c2
+M/alu=M/ALU 21|2|vef|1688410474383|../src/ALU.vhd|0*6201*0xba4363d0b1df87e7c49f8a3c083ed97433c9816e|0*6667*0x20116f55b147878295aeff36dce7fc50
+R=../src/ALU.vhd|6
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|fdc9c85601beb4171a6a25c637e2168e814bc8011a2ec569d5da30d2aa0b6989
+Version/alu=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|fdc9c85601beb4171a6a25c637e2168e499f4d6d92a67ed60be8a79232a7319b
+
+[controlunit]
+A/controlunit=A/ControlUnit 21|../src/ControlUnit.vhd|20|1*5000
+BinW64/controlunit=3*2667
+I=0*8838
+I/controlunit=I/ControlUnit 0*11765
+M=11|2|vef|1688412763367|../src/ControlUnit.vhd|0*8224*0x250752bb750bfe64b8a78be396bfaaaca547e8ea|0*8751*0x23b75c12e3e89f2ef000564498faa8c2
+M/controlunit=M/ControlUnit 21|2|vef|1688412778439|../src/ControlUnit.vhd|0*9083*0x645edeeb45aba4aefc98485ce1f97f4286ee99bb|0*11663*0x20116f55b147878295aeff36dce7fc50
+R=../src/ControlUnit.vhd|7
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|49bc9eef0cc431a4d98f9f55b61f1581a1b72c74b362bfaf9c7235d71f436ac2a16053ae1ebfbee34e0ed6157e136063
+Version/controlunit=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|49bc9eef0cc431a4d98f9f55b61f1581a1b72c74b362bfaf9c7235d71f436ac22bfd81cfe3c770ca0945bfa784397cef
+
+[ir_regester]
+A/ir_regester=A/IR_Regester 21|../src/IR_Regester.vhd|16|1*7702
+BinW64/ir_regester=3*4526
+I=0*12642
+I/ir_regester=I/IR_Regester 0*13287
+M=11|2|vef|1688412781541|../src/IR_Regester.vhd|0*12233*0x7ada6d3b7e201791553af532f074990c32f3d097|0*12555*0x23b75c12e3e89f2ef000564498faa8c2
+M/ir_regester=M/IR_Regester 21|2|vef|1688412781543|../src/IR_Regester.vhd|0*12887*0x5483d88f9b83b9b653ee98d529346c69def6378c|0*13185*0x20116f55b147878295aeff36dce7fc50
+R=../src/IR_Regester.vhd|5
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|c3fff2a82ce9cd092e3fdf35c01c6866131555e98327e9f3aa07fc199074239e36fdce6b1c5cf0006432831f149af1a6
+Version/ir_regester=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|c3fff2a82ce9cd092e3fdf35c01c6866131555e98327e9f3aa07fc199074239e36fdce6b1c5cf0006432831f149af1a6
+
+[main]
+I=0*14548
+M=11|2|vef|1688413207797|../src/Main.vhd|0*13812*0x89fb301593112c55e79dc83516d5041baa340bb8|0*14475*0x23b75c12e3e89f2ef000564498faa8c2
+R=../src/Main.vhd|5
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|a10d1194a18e37435e6d6f0ad7feedab78afa3a5093f53aeb5d4ed109fcae5f6
+
+[~U]
+alu=ALU 11|0*5288|
+controlunit=ControlUnit 11|0*7932|
+ir_regester=IR_Regester 11|0*12022|
+main=Main 11|0*13544|

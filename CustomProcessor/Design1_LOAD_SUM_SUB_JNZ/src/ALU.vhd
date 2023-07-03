@@ -1,12 +1,13 @@
 library IEEE;
-use IEEE.STD_LOGIC_1164.all;
-use IEEE.STD_LOGIC_signed.all;
+use IEEE.std_logic_1164.all;
+use IEEE.numeric_std.all;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
 
 entity ALU is
 	
 port(
 	in1,in2 : in std_logic_vector(5 downto 0);
-	cmd : in std_logic;
+	alu_cmd : in std_logic;
 	result : out std_logic_vector(5 downto 0)
 	);
 end ALU;
@@ -14,14 +15,14 @@ end ALU;
 architecture ALU of ALU is
  signal result_sig: std_logic_vector(5 downto 0);
 	begin
-		process(cmd,in1,in2)
+		process(alu_cmd,in1,in2)
 			begin
-				case cmd is
+				case alu_cmd is
 				 when '0' =>
 				  result_sig <= in1 + in2; -- add
 				 when '1' =>
 				  result_sig <= in1 - in2; -- sub
-				 when others => result_sig <= (others => 'X');
+				 when others => result_sig <= (others => 'Z');
 				 end case;
 		end process;
 		result <= result_sig;

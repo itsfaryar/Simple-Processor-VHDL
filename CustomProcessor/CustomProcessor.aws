@@ -2,6 +2,7 @@
 Version=13.0
 [Designs]
 design1_load_sum_sub_jnz=.\Design1_LOAD_SUM_SUB_JNZ\Design1_LOAD_SUM_SUB_JNZ.adf
+design2_load_sum_sub_jnz_mult=.\Design2_LOAD_SUM_SUB_JNZ_MULT\Design2_LOAD_SUM_SUB_JNZ_MULT.adf
 [Browser]
 sort=order
 mode=none
@@ -9,4 +10,7 @@ mode=none
 order=1
 macro=
 [Expand]
-design1_load_sum_sub_jnz=1
+design1_load_sum_sub_jnz=0
+design2_load_sum_sub_jnz_mult=1
+[Settings]
+Active=design2_load_sum_sub_jnz_mult

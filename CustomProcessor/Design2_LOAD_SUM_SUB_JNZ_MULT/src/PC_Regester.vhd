@@ -6,18 +6,18 @@ use IEEE.STD_LOGIC_UNSIGNED.ALL;
 
 entity PC_Regester is	
 	port(  
-	     RIN : in std_logic_vector(5 downto 0);
+	     RIN : in std_logic_vector(6 downto 0);
 	     CLK : in std_logic;
 		 LD, INC, CLR : in std_logic;	 
-		 ROUT : out std_logic_vector(5 downto 0));
+		 ROUT : out std_logic_vector(6 downto 0));
 	
 end PC_Regester;
 
 
 architecture PC_Regester of PC_Regester is 
  
---signal RN0,RN1,RN2,RN3,R_0,R_1,R_2,R_3: std_logic_vector(5 downto 0);
-signal PC, PC_next: std_logic_vector(5 downto 0):= "000000";
+--signal RN0,RN1,RN2,RN3,R_0,R_1,R_2,R_3: std_logic_vector(6 downto 0);
+signal PC, PC_next: std_logic_vector(6 downto 0):= "000000";
 begin
 
 ------------------------------ MAIN registers ------------------------------		   

@@ -4,10 +4,10 @@ use IEEE.numeric_std.all;
 
 entity IR_Regester is	
 	port(  
-	     RIN : in std_logic_vector(5 downto 0);
+	     RIN : in std_logic_vector(6 downto 0);
 	     CLK : in std_logic;
 		 LD : in std_logic;
-		 ROUT : out std_logic_vector(5 downto 0)
+		 ROUT : out std_logic_vector(6 downto 0)
 		);
 	
 end IR_Regester;
@@ -15,8 +15,8 @@ end IR_Regester;
 
 architecture IR_Regester of IR_Regester is 
  
---signal RN0,RN1,RN2,RN3,R_0,R_1,R_2,R_3: std_logic_vector(5 downto 0);
-signal IR: std_logic_vector(5 downto 0);
+--signal RN0,RN1,RN2,RN3,R_0,R_1,R_2,R_3: std_logic_vector(6 downto 0);
+signal IR: std_logic_vector(6 downto 0);
 begin
 
 ------------------------------ MAIN registers ------------------------------		   

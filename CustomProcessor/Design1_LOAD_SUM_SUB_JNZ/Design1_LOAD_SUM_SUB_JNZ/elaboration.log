@@ -1,4 +1,4 @@
-Active-HDL 13.0.375.8320 2023-07-03 20:47:21
+Active-HDL 13.0.375.8320 2023-07-04 00:08:38
 
 Elaboration top modules:
 VHDL Configuration            testbench_for_main
@@ -16,6 +16,7 @@ ALU         | ALU             | design1_load_sum_sub_jnz |      | 13.0.375.8320 
 ControlUnit | ControlUnit     | design1_load_sum_sub_jnz |      | 13.0.375.8320 (Windows64) | -O3
 Memory      | Memory          | design1_load_sum_sub_jnz |      | 13.0.375.8320 (Windows64) | -O3
 MUX4x2      | MUX4x2          | design1_load_sum_sub_jnz |      | 13.0.375.8320 (Windows64) | -O3
+MUX2x2      | MUX2x2          | design1_load_sum_sub_jnz |      | 13.0.375.8320 (Windows64) | -O3
 ------------------------------------------------------------------------------------------------------------------
 
 ------------------------------------------------------------------------------------------------------------------
@@ -30,10 +31,9 @@ VHDL Package                  | Library                  | Info | Compiler Versi
 standard                      | std                      |      |                           | <unavailable>
 TEXTIO                        | std                      |      | 13.0.375.8320 (Windows64) |  -2019
 std_logic_1164                | ieee                     |      | 13.0.375.8320 (Windows64) |  -2008
+NUMERIC_STD                   | ieee                     |      | 13.0.375.8320 (Windows64) |  -2008
 std_logic_arith               | ieee                     |      | 13.0.375.8320 (Windows64) | <unavailable>
 STD_LOGIC_UNSIGNED            | ieee                     |      | 13.0.375.8320 (Windows64) | <unavailable>
-STD_LOGIC_SIGNED              | ieee                     |      | 13.0.375.8320 (Windows64) | <unavailable>
-NUMERIC_STD                   | ieee                     |      | 13.0.375.8320 (Windows64) |  -2008
 ------------------------------------------------------------------------------------------------------------------
 
 ------------------------------------------------------------------------------------------------------------------
@@ -43,7 +43,3 @@ design1_load_sum_sub_jnz      | None
 ieee                          | Standard IEEE packages library
 std                           | Standard VHDL library
 ------------------------------------------------------------------------------------------------------------------
-
-
-Simulation Options: asim +access +r TESTBENCH_FOR_main
-

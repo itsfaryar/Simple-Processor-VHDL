@@ -5,10 +5,10 @@ use IEEE.numeric_std.all;
 
 entity MRegester is	
 	port(  
-	     RIN : in std_logic_vector(5 downto 0);
+	     RIN : in std_logic_vector(6 downto 0);
 	     CLK : in std_logic;
 		 LD : in std_logic;
-		 ROUT : out std_logic_vector(5 downto 0);
+		 ROUT : out std_logic_vector(6 downto 0);
 		 ZR : out std_logic);
 	
 end MRegester;
@@ -16,8 +16,8 @@ end MRegester;
 
 architecture MRegester of MRegester is 
  
---signal RN0,RN1,RN2,RN3,R_0,R_1,R_2,R_3: std_logic_vector(5 downto 0);
-signal Reg: std_logic_vector(5 downto 0):="000000";
+--signal RN0,RN1,RN2,RN3,R_0,R_1,R_2,R_3: std_logic_vector(6 downto 0);
+signal Reg: std_logic_vector(6 downto 0):="000000";
 begin
 
 ------------------------------ MAIN registers ------------------------------		   
