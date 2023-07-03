@@ -8,3 +8,6 @@ i<>.\src\PC_Regester.vhd
 i<>.\src\TestBench\pc_regester_TB.vhd
 i<>.\src\Main.vhd
 i<>.\src\Memory.vhd
+i<>.\src\ControlUnit.vhd
+i<>.\src\MUX.vhd
+i<>.\src\TestBench\main_TB.vhd

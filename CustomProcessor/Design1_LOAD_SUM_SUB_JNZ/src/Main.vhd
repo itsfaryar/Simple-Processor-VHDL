@@ -3,7 +3,23 @@ use IEEE.STD_LOGIC_1164.ALL;
 
 entity Main is 
 	port(
-		 CLK : in STD_LOGIC
+		 CLK : in STD_LOGIC;
+	   	 RST : in STD_LOGIC;
+		 BUS_Sel : out STD_LOGIC;
+		 INC : out std_logic ;
+		 CMD : out STD_LOGIC;
+		 IR : out STD_LOGIC_VECTOR(5 downto 0);		  
+		 PC : out STD_LOGIC_VECTOR(5 downto 0);
+		 LD_REG : out STD_LOGIC_VECTOR(0 to 3);
+		 Reg0 : out STD_LOGIC_VECTOR(5 downto 0);
+		 Reg1 : out STD_LOGIC_VECTOR(5 downto 0);
+		 Reg2 : out STD_LOGIC_VECTOR(5 downto 0);
+		 Reg3 : out STD_LOGIC_VECTOR(5 downto 0);
+		 Select0 : out STD_LOGIC_VECTOR(1 downto 0);
+		 Select1 : out STD_LOGIC_VECTOR(1 downto 0);
+		 ALU_out : out STD_LOGIC_VECTOR(5 downto 0);
+		 bus_data : out STD_LOGIC_VECTOR(5 downto 0);
+		 Memory_Data : out STD_LOGIC_VECTOR(5 downto 0)
 	     );
 end Main;
 
@@ -11,9 +27,11 @@ end Main;
 
 architecture Main of Main is	
 
-signal LD0, LD1, LD2, LD3, LD_PC, LD_IR, ZR0, ZR1, ZR2, ZR3, INC, CLR, RST, alu_cmd : std_logic;
-signal RIN0, RIN1, RIN2, RIN3, RIN_PC, RIN_IR, ROUT0, ROUT1, ROUT2, ROUT3, ROUT_PC, ROUT_IR : std_logic_vector(5 downto 0);
-signal alu_in1, alu_in2, alu_result : std_logic_vector(5 downto 0);
+signal LD0_sig,LD1_sig,LD2_sig,LD3_sig,LD_PC_sig, LD_IR_sig, ZR0_sig, ZR1_sig, ZR2_sig, ZR3_sig, INC_sig, CLR_sig, alu_cmd_sig,BUS_Sel_sig : std_logic;
+signal RIN0_sig, RIN1_sig, RIN2_sig, RIN3_sig, RIN_PC_sig, RIN_IR_sig, ROUT0_sig, ROUT1_sig, ROUT2_sig, ROUT3_sig, ROUT_PC_sig, ROUT_IR_sig,MData_sig,bus_input_sig : std_logic_vector(5 downto 0);
+signal alu_in1_sig, alu_in2_sig, alu_result_sig : std_logic_vector(5 downto 0);		 
+signal sel0_sig,sel1_sig : std_logic_vector(1 downto 0);
+
 component ALU is
 	
 	port(
@@ -48,22 +66,75 @@ component PC_Regester is
 		 LD, INC, CLR : in std_logic;	 
 		 ROUT : out std_logic_vector(5 downto 0));
 	
+end component; 					
+
+component ControlUnit is  
+	 port( clk,rst: in std_logic;
+	      ZR0,ZR1,ZR2,ZR3 : in std_logic;
+		  ROUT_IR : in std_logic_vector(5 downto 0);
+		  LD0,LD1,LD2,LD3 : out std_logic;
+		  LD_PC , LD_IR :out std_logic;
+		  Sel0: out std_logic_vector(1 downto 0);
+		  Sel1: out std_logic_vector(1 downto 0);
+		  BUS_Sel , ALU_CMD : out std_logic;
+		  INC , CLR : out std_logic);
+end component;	 
+
+component MUX4x2 is  
+	port(
+		in0,in1,in2,in3  : in std_logic_vector(5 downto 0);
+	    S : in std_logic_vector(1 downto 0);
+		output : out std_logic_vector(5 downto 0)
+	);
 end component; 
 
+component Memory is	
+	port(
+	     Address : in std_logic_vector(5 downto 0);
+		 Data : out std_logic_vector(5 downto 0)
+		 );	
+end component;
 begin		
 	-- Regesters   
 	---Main
-	Reg0     : MRegester       PORT MAP (RIN=>RIN0, CLK=>CLK, LD=>LD0, ZR=>ZR0, ROUT=>ROUT0);	  
-	Reg1     : MRegester       PORT MAP (RIN=>RIN1, CLK=>CLK, LD=>LD1, ZR=>ZR1, ROUT=>ROUT1);
-	Reg2     : MRegester       PORT MAP (RIN=>RIN2, CLK=>CLK, LD=>LD2, ZR=>ZR2, ROUT=>ROUT2);
-	Reg3     : MRegester       PORT MAP (RIN=>RIN3, CLK=>CLK, LD=>LD3, ZR=>ZR3, ROUT=>ROUT3);	 
-	---PC
-	Reg_PC   : PC_Regester     PORT MAP (RIN=>RIN_PC, CLK=>CLK, LD=>LD_PC,CLR=> CLR, INC=> INC , ROUT=>ROUT_PC);	 
+	Reg0_Cmp     : MRegester       PORT MAP (RIN=>bus_input_sig, CLK=>CLK, LD=>LD0_sig, ZR=>ZR0_sig, ROUT=>ROUT0_sig);	  
+	Reg1_Cmp     : MRegester       PORT MAP (RIN=>bus_input_sig, CLK=>CLK, LD=>LD1_sig, ZR=>ZR1_sig, ROUT=>ROUT1_sig);
+	Reg2_Cmp     : MRegester       PORT MAP (RIN=>bus_input_sig, CLK=>CLK, LD=>LD2_sig, ZR=>ZR2_sig, ROUT=>ROUT2_sig);
+	Reg3_Cmp     : MRegester       PORT MAP (RIN=>bus_input_sig, CLK=>CLK, LD=>LD3_sig, ZR=>ZR3_sig, ROUT=>ROUT3_sig);	 
+	---PC																					  
+	Reg_PC   : PC_Regester     PORT MAP (RIN=>bus_input_sig, CLK=>CLK, LD=>LD_PC_sig,CLR=> CLR_sig, INC=> INC_sig , ROUT=>ROUT_PC_sig);	 
 	---IR
-	Reg_IR   : IR_Regester     PORT MAP (RIN=>RIN_IR, CLK=>CLK, LD=>LD_IR , ROUT=>ROUT_IR); 
+	Reg_IR   : IR_Regester     PORT MAP (RIN=>bus_input_sig, CLK=>CLK, LD=>LD_IR_sig , ROUT=>ROUT_IR_sig); 
 	
 	-- ALU
-	ALU0     : ALU             PORT MAP (in1=>alu_in1, in2=>alu_in2, cmd=>alu_cmd);
+	ALU0     : ALU             PORT MAP (in1=>alu_in1_sig, in2=>alu_in2_sig, cmd=>alu_cmd_sig,result =>alu_result_sig);		  
+	--Control Unit
+	ControlUnit_inst : ControlUnit port map(clk => CLK,rst => RST,ZR0 => ZR0_sig,ZR1 => ZR1_sig,ZR2 => ZR2_sig,ZR3 => ZR3_sig,ROUT_IR => ROUT_IR_sig,LD0 => LD0_sig,LD1 => LD1_sig,LD2 => LD2_Sig,LD3 => LD3_sig,LD_PC => LD_PC_sig,LD_IR => LD_IR_sig,Sel0 => Sel0_sig,Sel1 => Sel1_sig,BUS_Sel => BUS_Sel_sig,ALU_CMD => alu_cmd_sig,INC => INC_sig,CLR => CLR_Sig);
+	ROM0             : Memory      PORT MAP (Address=>ROUT_PC_sig, Data=>MData_sig);	
 	
+	--ALU inputs MUltiplexers  
+	MUX0     : MUX4x2          PORT MAP  (in0=> ROUT0_sig, in1=>ROUT1_sig, in2=>ROUT2_sig, in3=>ROUT3_sig, s=>sel0_sig, output=>alu_in1_sig);							 
+	MUX1     : MUX4x2          PORT MAP  (in0=> ROUT0_sig, in1=>ROUT1_sig, in2=>ROUT2_sig, in3=>ROUT3_sig, s=>sel1_sig, output=>alu_in2_sig);
+	--BUS 
+	bus_input_sig  <= alu_result_sig when BUS_Sel_sig='0' else MData_sig when BUS_Sel_sig='1';
+	
+	BUS_Sel <= BUS_Sel_sig;
+	INC <= INC_sig;
+	CMD <= alu_cmd_sig;
+	IR  <= ROUT_IR_sig;	
+	PC <= Rout_PC_sig;
+	LD_REG(0) <= LD0_sig;
+	LD_REG(1) <= LD1_Sig;
+	LD_REG(2) <= LD2_sig;
+	LD_REG(3) <= LD3_sig;
+	Reg0      <= Rout0_sig;
+	Reg1      <= Rout1_sig;
+	Reg2      <= Rout2_sig;
+	Reg3      <= Rout3_Sig;
+	Select0   <= sel0_Sig;
+	Select1   <= sel1_Sig;
+	ALU_out   <= alu_result_sig;
+	bus_data  <= bus_input_sig;
+	Memory_Data <= MData_sig;
 end Main;
 
