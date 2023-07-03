@@ -1,25 +1,40 @@
-Active-HDL 13.0.375.8320 2023-07-04 00:09:24
+Active-HDL 13.0.375.8320 2023-07-04 01:04:08
 
 Elaboration top modules:
-Architecture                  ALU(ALU)
+VHDL Configuration            testbench_for_main
 
 
------------------------------------------------------------------------------------------------------------------
-Entity   | Architecture | Library                       | Info | Compiler Version          | Compilation Options
------------------------------------------------------------------------------------------------------------------
-ALU      | ALU          | Design2_LOAD_SUM_SUB_JNZ_MULT |      | 13.0.375.8320 (Windows64) | -O3
------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------
+Entity      | Architecture    | Library                       | Info | Compiler Version          | Compilation Options
+-----------------------------------------------------------------------------------------------------------------------
+main_tb     | TB_ARCHITECTURE | Design2_LOAD_SUM_SUB_JNZ_MULT |      | 13.0.375.8320 (Windows64) | -O3
+Main        | Main            | Design2_LOAD_SUM_SUB_JNZ_MULT |      | 13.0.375.8320 (Windows64) | -O3
+MRegester   | MRegester       | Design2_LOAD_SUM_SUB_JNZ_MULT |      | 13.0.375.8320 (Windows64) | -O3
+PC_Regester | PC_Regester     | Design2_LOAD_SUM_SUB_JNZ_MULT |      | 13.0.375.8320 (Windows64) | -O3
+IR_Regester | IR_Regester     | Design2_LOAD_SUM_SUB_JNZ_MULT |      | 13.0.375.8320 (Windows64) | -O3
+ALU         | ALU             | Design2_LOAD_SUM_SUB_JNZ_MULT |      | 13.0.375.8320 (Windows64) | -O3
+ControlUnit | ControlUnit     | Design2_LOAD_SUM_SUB_JNZ_MULT |      | 13.0.375.8320 (Windows64) | -O3
+Memory      | Memory          | Design2_LOAD_SUM_SUB_JNZ_MULT |      | 13.0.375.8320 (Windows64) | -O3
+MUX4x2      | MUX4x2          | Design2_LOAD_SUM_SUB_JNZ_MULT |      | 13.0.375.8320 (Windows64) | -O3
+MUX2x2      | MUX2x2          | Design2_LOAD_SUM_SUB_JNZ_MULT |      | 13.0.375.8320 (Windows64) | -O3
+-----------------------------------------------------------------------------------------------------------------------
 
------------------------------------------------------------------------------------------------------------------
-VHDL Package            | Library                       | Info | Compiler Version          | Compilation Options
------------------------------------------------------------------------------------------------------------------
-standard                | std                           |      |                           | <unavailable>
-TEXTIO                  | std                           |      | 13.0.375.8320 (Windows64) |  -2019
-std_logic_1164          | ieee                          |      | 13.0.375.8320 (Windows64) |  -2008
-NUMERIC_STD             | ieee                          |      | 13.0.375.8320 (Windows64) |  -2008
-std_logic_arith         | ieee                          |      | 13.0.375.8320 (Windows64) | <unavailable>
-STD_LOGIC_UNSIGNED      | ieee                          |      | 13.0.375.8320 (Windows64) | <unavailable>
------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------
+VHDL Configuration            | Library                       | Info | Compiler Version          | Compilation Options
+-----------------------------------------------------------------------------------------------------------------------
+testbench_for_main            | Design2_LOAD_SUM_SUB_JNZ_MULT |      | 13.0.375.8320 (Windows64) | -O3
+-----------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------
+VHDL Package                  | Library                       | Info | Compiler Version          | Compilation Options
+-----------------------------------------------------------------------------------------------------------------------
+standard                      | std                           |      |                           | <unavailable>
+TEXTIO                        | std                           |      | 13.0.375.8320 (Windows64) |  -2019
+std_logic_1164                | ieee                          |      | 13.0.375.8320 (Windows64) |  -2008
+NUMERIC_STD                   | ieee                          |      | 13.0.375.8320 (Windows64) |  -2008
+std_logic_arith               | ieee                          |      | 13.0.375.8320 (Windows64) | <unavailable>
+STD_LOGIC_UNSIGNED            | ieee                          |      | 13.0.375.8320 (Windows64) | <unavailable>
+-----------------------------------------------------------------------------------------------------------------------
 
 -----------------------------------------------------------------------------------------------------------------------
 Library                       | Comment
@@ -28,3 +43,7 @@ Design2_LOAD_SUM_SUB_JNZ_MULT | None
 ieee                          | Standard IEEE packages library
 std                           | Standard VHDL library
 -----------------------------------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim +access +r TESTBENCH_FOR_main
+

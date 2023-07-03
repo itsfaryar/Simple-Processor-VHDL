@@ -1,4 +1,4 @@
-9
+35
 ~E 1 "../src/ALU.vhd" 6 ALU
 ~A 1 "../src/ALU.vhd" 15 ALU
 ~E 1 "../src/ControlUnit.vhd" 7 ControlUnit
@@ -6,3 +6,17 @@
 ~E 1 "../src/IR_Regester.vhd" 5 IR_Regester
 ~A 1 "../src/IR_Regester.vhd" 16 IR_Regester
 ~E 1 "../src/Main.vhd" 5 Main
+~A 1 "../src/Main.vhd" 27 Main
+~E 1 "../src/TestBench/main_TB.vhd" 7 main_tb
+~A 1 "../src/TestBench/main_TB.vhd" 10 TB_ARCHITECTURE
+~E 1 "../src/Memory.vhd" 5 Memory
+~A 1 "../src/Memory.vhd" 11 Memory
+~E 1 "../src/MRegester.vhd" 6 MRegester
+~A 1 "../src/MRegester.vhd" 17 MRegester
+~E 1 "../src/MUX2x2.vhd" 5 MUX2x2
+~A 1 "../src/MUX2x2.vhd" 15 MUX2x2
+~E 1 "../src/MUX4x2.vhd" 6 MUX4x2
+~A 1 "../src/MUX4x2.vhd" 16 MUX4x2
+~E 1 "../src/PC_Regester.vhd" 7 PC_Regester
+~A 1 "../src/PC_Regester.vhd" 17 PC_Regester
+~C 1 "../src/TestBench/main_TB.vhd" 85 testbench_for_main

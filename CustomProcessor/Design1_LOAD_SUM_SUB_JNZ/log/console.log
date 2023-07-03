@@ -1,3 +1,341 @@
+acom -O3 -e 100 -work Design1_LOAD_SUM_SUB_JNZ -2002  $dsn/src/Memory.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/Memory.vhd
+# Compile Entity "Memory"
+# Compile Architecture "Memory" of Entity "Memory"
+# Error: COMP96_0016: Memory.vhd : (21, 30): Design unit declaration expected.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work Design1_LOAD_SUM_SUB_JNZ -2002  $dsn/src/Memory.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/Memory.vhd
+# Compile Entity "Memory"
+# Compile Architecture "Memory" of Entity "Memory"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+SetActiveLib -work
+comp -include "$dsn\src\Main.vhd" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/Main.vhd
+# Compile Entity "Main"
+# Compile Architecture "Main" of Entity "Main"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+comp -include "$dsn\src\TestBench\main_TB.vhd" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/TestBench/main_TB.vhd
+# Compile Entity "main_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "main_tb"
+# Compile Configuration "TESTBENCH_FOR_main"
+# Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
+asim +access +r TESTBENCH_FOR_main 
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6617 kB (elbread=427 elab2=6050 kernel=140 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Faryar\Desktop\Simple-Processor-VHDL\CustomProcessor\Design1_LOAD_SUM_SUB_JNZ\src\wave.asdb
+#  12:49 AM, Tuesday, July 04, 2023
+#  Simulation has been initialized
+wave 
+wave -noreg CLK
+wave -noreg RST
+wave -noreg BUS_Sel
+wave -noreg INC
+wave -noreg CMD
+wave -noreg IR
+wave -noreg PC
+wave -noreg LD_REG
+wave -noreg Reg0
+wave -noreg Reg1
+wave -noreg Reg2
+wave -noreg Reg3
+wave -noreg ALU_out
+wave -noreg bus_data
+wave -noreg Memory_Data
+# # The following lines can be used for timing simulation
+# # acom <backannotated_vhdl_file_name>
+# # comp -include "$dsn\src\TestBench\main_TB_tim_cfg.vhd" 
+# # asim +access +r TIMING_FOR_main 
+# VSIM: 15 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/wave.asdb'.
+run 500ns
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /main_tb/UUT/ControlUnit_inst,  Process: line__25.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /main_tb/UUT/ROM0,  Process: line__20.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 10 ns,  Iteration: 2,  Instance: /main_tb/UUT/ALU0,  Process: line__18.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 270 ns,  Iteration: 3,  Instance: /main_tb/UUT/ControlUnit_inst,  Process: line__25.
+# KERNEL: stopped at time: 500 ns
+endsim
+# VSIM: Simulation has finished.
+SetActiveLib -work
+comp -include "$dsn\src\Main.vhd" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/Main.vhd
+# Compile Entity "Main"
+# Compile Architecture "Main" of Entity "Main"
+# Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
+comp -include "$dsn\src\TestBench\main_TB.vhd" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/TestBench/main_TB.vhd
+# Compile Entity "main_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "main_tb"
+# Compile Configuration "TESTBENCH_FOR_main"
+# Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]
+asim +access +r TESTBENCH_FOR_main 
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6617 kB (elbread=427 elab2=6050 kernel=140 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Faryar\Desktop\Simple-Processor-VHDL\CustomProcessor\Design1_LOAD_SUM_SUB_JNZ\src\wave.asdb
+#  12:51 AM, Tuesday, July 04, 2023
+#  Simulation has been initialized
+wave 
+wave -noreg CLK
+wave -noreg RST
+wave -noreg BUS_Sel
+wave -noreg INC
+wave -noreg CMD
+wave -noreg IR
+wave -noreg PC
+wave -noreg LD_REG
+wave -noreg Reg0
+wave -noreg Reg1
+wave -noreg Reg2
+wave -noreg Reg3
+wave -noreg ALU_out
+wave -noreg bus_data
+wave -noreg Memory_Data
+# # The following lines can be used for timing simulation
+# # acom <backannotated_vhdl_file_name>
+# # comp -include "$dsn\src\TestBench\main_TB_tim_cfg.vhd" 
+# # asim +access +r TIMING_FOR_main 
+# VSIM: 15 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/wave.asdb'.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /main_tb/UUT/ControlUnit_inst,  Process: line__25.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /main_tb/UUT/ROM0,  Process: line__20.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 10 ns,  Iteration: 2,  Instance: /main_tb/UUT/ALU0,  Process: line__18.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 270 ns,  Iteration: 3,  Instance: /main_tb/UUT/ControlUnit_inst,  Process: line__25.
+# KERNEL: stopped at time: 450 ns
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+testbench_for_main testbench_for_main
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.1 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6617 kB (elbread=427 elab2=6050 kernel=140 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Faryar\Desktop\Simple-Processor-VHDL\CustomProcessor\Design1_LOAD_SUM_SUB_JNZ\src\wave.asdb
+#  12:51 AM, Tuesday, July 04, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/wave.asdb'.
+run 400ns
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /main_tb/UUT/ControlUnit_inst,  Process: line__25.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /main_tb/UUT/ROM0,  Process: line__20.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 10 ns,  Iteration: 2,  Instance: /main_tb/UUT/ALU0,  Process: line__18.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 270 ns,  Iteration: 3,  Instance: /main_tb/UUT/ControlUnit_inst,  Process: line__25.
+# KERNEL: stopped at time: 400 ns
+endsim
+# VSIM: Simulation has finished.
+SetActiveLib -work
+comp -include "$dsn\src\Main.vhd" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/Main.vhd
+# Compile Entity "Main"
+# Compile Architecture "Main" of Entity "Main"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+comp -include "$dsn\src\TestBench\main_TB.vhd" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/TestBench/main_TB.vhd
+# Compile Entity "main_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "main_tb"
+# Compile Configuration "TESTBENCH_FOR_main"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+asim +access +r TESTBENCH_FOR_main 
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6617 kB (elbread=427 elab2=6050 kernel=140 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Faryar\Desktop\Simple-Processor-VHDL\CustomProcessor\Design1_LOAD_SUM_SUB_JNZ\src\wave.asdb
+#  12:52 AM, Tuesday, July 04, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/wave.asdb'.
+wave 
+wave -noreg CLK
+wave -noreg RST
+wave -noreg BUS_Sel
+wave -noreg INC
+wave -noreg CMD
+wave -noreg IR
+wave -noreg PC
+wave -noreg LD_REG
+wave -noreg Reg0
+wave -noreg Reg1
+wave -noreg Reg2
+wave -noreg Reg3
+wave -noreg ALU_out
+wave -noreg bus_data
+wave -noreg Memory_Data
+# # The following lines can be used for timing simulation
+# # acom <backannotated_vhdl_file_name>
+# # comp -include "$dsn\src\TestBench\main_TB_tim_cfg.vhd" 
+# # asim +access +r TIMING_FOR_main 
+# VSIM: 15 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/wave.asdb'.
+run 400ns
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /main_tb/UUT/ControlUnit_inst,  Process: line__25.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /main_tb/UUT/ROM0,  Process: line__20.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 10 ns,  Iteration: 2,  Instance: /main_tb/UUT/ALU0,  Process: line__18.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 270 ns,  Iteration: 3,  Instance: /main_tb/UUT/ControlUnit_inst,  Process: line__25.
+# KERNEL: stopped at time: 400 ns
+endsim
+# VSIM: Simulation has finished.
+SetActiveLib -work
+comp -include "$dsn\src\Main.vhd" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/Main.vhd
+# Compile Entity "Main"
+# Compile Architecture "Main" of Entity "Main"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+comp -include "$dsn\src\TestBench\main_TB.vhd" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/TestBench/main_TB.vhd
+# Compile Entity "main_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "main_tb"
+# Compile Configuration "TESTBENCH_FOR_main"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+asim +access +r TESTBENCH_FOR_main 
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6617 kB (elbread=427 elab2=6050 kernel=140 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Faryar\Desktop\Simple-Processor-VHDL\CustomProcessor\Design1_LOAD_SUM_SUB_JNZ\src\wave.asdb
+#  12:52 AM, Tuesday, July 04, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/wave.asdb'.
+# Waveform file 'untitled.awc' connected to 'C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/wave.asdb'.
+wave 
+wave -noreg CLK
+wave -noreg RST
+wave -noreg BUS_Sel
+wave -noreg INC
+wave -noreg CMD
+wave -noreg IR
+wave -noreg PC
+wave -noreg LD_REG
+wave -noreg Reg0
+wave -noreg Reg1
+wave -noreg Reg2
+wave -noreg Reg3
+wave -noreg ALU_out
+wave -noreg bus_data
+wave -noreg Memory_Data
+# # The following lines can be used for timing simulation
+# # acom <backannotated_vhdl_file_name>
+# # comp -include "$dsn\src\TestBench\main_TB_tim_cfg.vhd" 
+# # asim +access +r TIMING_FOR_main 
+# VSIM: 15 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/wave.asdb'.
+run 350ns
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /main_tb/UUT/ControlUnit_inst,  Process: line__25.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /main_tb/UUT/ROM0,  Process: line__20.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 10 ns,  Iteration: 2,  Instance: /main_tb/UUT/ALU0,  Process: line__18.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 270 ns,  Iteration: 3,  Instance: /main_tb/UUT/ControlUnit_inst,  Process: line__25.
+# KERNEL: stopped at time: 350 ns
+acom -O3 -e 100 -work Design1_LOAD_SUM_SUB_JNZ -2002  $dsn/src/ControlUnit.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/ControlUnit.vhd
+# Compile Entity "ControlUnit"
+# Compile Architecture "ControlUnit" of Entity "ControlUnit"
+# Error: COMP96_0078: ControlUnit.vhd : (78, 15): Unknown identifier "D".
+# Error: COMP96_0133: ControlUnit.vhd : (78, 15): Cannot find object declaration.
+# Error: COMP96_0077: ControlUnit.vhd : (78, 15): Undefined type of expression. Expected type 'States'.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work Design1_LOAD_SUM_SUB_JNZ -2002  $dsn/src/ControlUnit.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design1_LOAD_SUM_SUB_JNZ/src/ControlUnit.vhd
+# Compile Entity "ControlUnit"
+# Compile Architecture "ControlUnit" of Entity "ControlUnit"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
 # Design: Design "Design2_LOAD_SUM_SUB_JNZ_MULT" has been set as active.
 # ELBREAD: Elaboration process.
 # ELBREAD: Elaboration time 0.0 [s].

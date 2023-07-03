@@ -19,7 +19,7 @@ end ControlUnit;
 architecture ControlUnit of ControlUnit is 
 	signal index : integer;
 	signal Z : std_logic_vector(3 downto 0);
-	type States is (S0, S1, S2, S3, S4, S5, S6, S7, D);																  
+	type States is (S0, S1, S2, S3, S4, S5, S6, S7, S_HLT);																  
 	signal STATE : States;	
 begin
 	index <= to_integer(unsigned(ROUT_IR(3 downto 2))); 
@@ -75,9 +75,9 @@ begin
 					INC <= '0';
 					LD_IR <= '0';
 					
-					STATE <= D;
+					STATE <= S_HLT;
 					
-				when D =>
+				when S_HLT =>
 					
 					if(ROUT_IR= "000000")then 
 						STATE <= S2;			

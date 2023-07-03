@@ -17,7 +17,7 @@ end MRegester;
 architecture MRegester of MRegester is 
  
 --signal RN0,RN1,RN2,RN3,R_0,R_1,R_2,R_3: std_logic_vector(6 downto 0);
-signal Reg: std_logic_vector(6 downto 0):="000000";
+signal Reg: std_logic_vector(6 downto 0):="0000000";
 begin
 
 ------------------------------ MAIN registers ------------------------------		   
@@ -34,7 +34,7 @@ begin
 				
  	ROUT <= Reg;
 				 
-	ZR  <= '1' when (Reg="000000") else '0';
+	ZR  <= '1' when (Reg="0000000") else '0';
 	
 
 end MRegester;

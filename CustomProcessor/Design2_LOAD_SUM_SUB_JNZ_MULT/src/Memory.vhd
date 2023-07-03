@@ -12,10 +12,11 @@ architecture Memory of Memory is
 type mem_type is array(0 to 63) of std_logic_vector(6 downto 0);
 signal ROM : mem_type;
 begin
-ROM(0) <= "000001";
-ROM(1) <= "000111";
-ROM(2) <= "000100";
-ROM(3) <= "000100";
-ROM(4) <= "010001";
+ROM(0) <= "0000001";
+ROM(1) <= "0000110";
+ROM(2) <= "0000101";
+ROM(3) <= "0001000";
+ROM(4) <= "1000001";
+ROM(5) <= "0000000";
 Data <= ROM(to_integer(unsigned(Address)));
 end Memory;

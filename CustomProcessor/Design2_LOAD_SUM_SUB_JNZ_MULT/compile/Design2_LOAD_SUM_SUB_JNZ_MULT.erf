@@ -1,10 +1,6 @@
 WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
-MESSAGE "File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design2_LOAD_SUM_SUB_JNZ_MULT/src/Main.vhd" 
-MESSAGE "Compile Entity "Main"" 
-MESSAGE "Compile Architecture "Main" of Entity "Main"" 
-WARNING ELAB1_0026: "There is no default binding for component "MRegester". (No entity named "MRegester" was found)." "C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design2_LOAD_SUM_SUB_JNZ_MULT/src/Main.vhd" 106 0
-WARNING ELAB1_0026: "There is no default binding for component "PC_Regester". (No entity named "PC_Regester" was found)." "C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design2_LOAD_SUM_SUB_JNZ_MULT/src/Main.vhd" 111 0
-ERROR ELAB1_0021: "Types do not match for port "alu_cmd"." "C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design2_LOAD_SUM_SUB_JNZ_MULT/src/Main.vhd" 116 0
-ERROR COMP96_0100: "Actual parameter type in port map does not match the type of the formal port 'alu_cmd'." "C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design2_LOAD_SUM_SUB_JNZ_MULT/src/Main.vhd" 116 75
-ERROR COMP96_0617: "Assignment target incompatible with right side. Cannot convert 'STD_LOGIC_VECTOR' to 'STD_ULOGIC'." "C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design2_LOAD_SUM_SUB_JNZ_MULT/src/Main.vhd" 129 9
-FAILURE "Compile failure 3 Errors 2 Warnings  Analysis time :  16.0 [ms]" 
+MESSAGE "File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Design2_LOAD_SUM_SUB_JNZ_MULT/src/TestBench/main_TB.vhd" 
+MESSAGE "Compile Entity "main_tb"" 
+MESSAGE "Compile Architecture "TB_ARCHITECTURE" of Entity "main_tb"" 
+MESSAGE "Compile Configuration "TESTBENCH_FOR_main"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]" 

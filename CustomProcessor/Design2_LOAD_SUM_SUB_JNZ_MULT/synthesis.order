@@ -7,3 +7,4 @@ i<>.\src\MRegester.vhd
 i<>.\src\MUX2x2.vhd
 i<>.\src\MUX4x2.vhd
 i<>.\src\PC_Regester.vhd
+i<>.\src\TestBench\main_TB.vhd

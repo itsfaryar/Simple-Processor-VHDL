@@ -8,7 +8,7 @@ entity Main is
 	   	 RST : in STD_LOGIC;
 		 BUS_Sel : out STD_LOGIC;
 		 INC : out std_logic ;
-		 CMD : out STD_LOGIC;
+		 CMD : out std_logic_vector(1 downto 0);
 		 IR : out STD_LOGIC_VECTOR(6 downto 0);		  
 		 PC : out STD_LOGIC_VECTOR(6 downto 0);
 		 LD_REG : out STD_LOGIC_VECTOR(0 to 3);
@@ -35,10 +35,10 @@ signal alu_cmd_sig :  std_logic_vector(1 downto 0);
 component ALU is
 	
 	port(
-		in1,in2 : in std_logic_vector(6 downto 0);
-		alu_cmd : in std_logic;
-		result : out std_logic_vector(6 downto 0)
-		);
+	in1,in2 : in std_logic_vector(6 downto 0);
+	alu_cmd : in std_logic_vector(1 downto 0);
+	result : out std_logic_vector(6 downto 0)
+	);
 end component;
 
 component MRegester is	
@@ -69,7 +69,7 @@ component PC_Regester is
 end component; 					
 
 component ControlUnit is  
-	port( clk,rst: in std_logic;
+	 port( clk,rst: in std_logic;
 	      ZR0,ZR1,ZR2,ZR3 : in std_logic;
 		  ROUT_IR : in std_logic_vector(6 downto 0);
 		  LD0,LD1,LD2,LD3 : out std_logic;

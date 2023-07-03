@@ -1,4 +1,4 @@
-228
+239
 ~E 1 "../src/ALU.vhd" 6 ALU
 ~A 1 "../src/ALU.vhd" 15 ALU
 ~E 1 "../src/TestBench/alu_TB.vhd" 7 alu_tb

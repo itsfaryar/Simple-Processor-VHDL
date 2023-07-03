@@ -17,14 +17,14 @@ end PC_Regester;
 architecture PC_Regester of PC_Regester is 
  
 --signal RN0,RN1,RN2,RN3,R_0,R_1,R_2,R_3: std_logic_vector(6 downto 0);
-signal PC, PC_next: std_logic_vector(6 downto 0):= "000000";
+signal PC, PC_next: std_logic_vector(6 downto 0):= "0000000";
 begin
 
 ------------------------------ MAIN registers ------------------------------		   
 	 	FF: process( CLK, CLR )
 	begin  
 		if ( CLR = '1' ) then
-			PC <=  "000000";  
+			PC <=  "0000000";  
 		elsif ( rising_edge(CLK) ) then
 			PC <= PC_next;	
 		end if;
