@@ -3,8 +3,8 @@ FileTimeLow=3443689138
 FileTimeHigh=31043039
 Status=Compiled
 [COMPILESTATUS|.\src\ControlUnit.vhd]
-FileTimeLow=709293095
-FileTimeHigh=31043045
+FileTimeLow=327881426
+FileTimeHigh=31043060
 Status=Compiled
 [COMPILESTATUS|.\src\IR_Regester.vhd]
 FileTimeLow=4128193515
@@ -15,8 +15,8 @@ FileTimeLow=2554613397
 FileTimeHigh=31043050
 Status=Compiled
 [COMPILESTATUS|.\src\Memory.vhd]
-FileTimeLow=2794187233
-FileTimeHigh=31043053
+FileTimeLow=2376290982
+FileTimeHigh=31043060
 Status=Compiled
 [COMPILESTATUS|.\src\Memory.vhdl]
 FileTimeLow=1390492591

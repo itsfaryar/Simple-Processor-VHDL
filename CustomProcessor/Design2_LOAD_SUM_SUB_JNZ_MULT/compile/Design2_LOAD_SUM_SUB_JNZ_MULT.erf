@@ -3,4 +3,4 @@ MESSAGE "File: C:/Users/Faryar/Desktop/Simple-Processor-VHDL/CustomProcessor/Des
 MESSAGE "Compile Entity "main_tb"" 
 MESSAGE "Compile Architecture "TB_ARCHITECTURE" of Entity "main_tb"" 
 MESSAGE "Compile Configuration "TESTBENCH_FOR_main"" 
-SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]" 

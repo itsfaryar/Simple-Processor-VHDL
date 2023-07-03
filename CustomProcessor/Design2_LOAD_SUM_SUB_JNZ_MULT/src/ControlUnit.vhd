@@ -82,19 +82,19 @@ begin
 
 					if(ROUT_IR= "0000000")then 
 						STATE <= S2;			
-					elsif (ROUT_IR(6 downto 4)= "000")then 
-						STATE <= S3;
-					elsif (ROUT_IR(6 downto 4) = "001")then 
+					elsif (ROUT_IR(5 downto 4)= "00" and ROUT_IR(1 downto 0)= "01")then 
+						STATE <= S3;  
+					elsif (ROUT_IR(5 downto 4) = "01")then 
 						STATE <= S4; 	
-					elsif (ROUT_IR(6 downto 4) = "010")then 
+					elsif (ROUT_IR(5 downto 4) = "10")then 
 						STATE <= S5;
-					elsif (ROUT_IR(6 downto 4) = "011")then 
+					elsif (ROUT_IR(5 downto 4)= "00" and ROUT_IR(1 downto 0)= "10")then
 						if(Z(index) = '0')then 
 							STATE <= S6; 
 						else
 							STATE <= S7; 
 						end if;
-					elsif (ROUT_IR(6 downto 4) = "100") then	
+					elsif (ROUT_IR(5 downto 4) = "11") then	
 						STATE <= S8;	
 					end if;
 				
