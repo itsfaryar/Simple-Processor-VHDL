@@ -103,6 +103,8 @@ Op Code | R_SRC | R_DST
 
 #Results of simulated multiplications using sum instructions
 
+## Assembly Code
+
 ```assembly
 LOAD R0, 0
 LOAD R1, 1
@@ -113,6 +115,8 @@ SUB R3, R1
 JNZ R3, 8
 HLT
 ```
+
+## ROM Initialization Code
 
 ```vhdl created from asembler code
 ROM(0)  <= "000001";
