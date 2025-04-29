@@ -94,14 +94,17 @@ Op Code | R_SRC | R_DST
 
 ![Instruction Format](images/instruction_format.jpg)
 
-#Control Unit ASM Chart
+# Control Unit ASM Chart
+
 ![Control Uint ASM](images/Control_Uint_ASM.jpg)
 
-#Results of a sample sum operation
-##Simulations Output
+# Results of a sample sum operation
+
+## Simulations Output
+
 ![Processor Schematic](images/section1.jpg)
 
-#Results of simulated multiplications using sum instructions
+# Results of simulated multiplications using sum instructions
 
 ## Assembly Code
 
