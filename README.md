@@ -100,6 +100,14 @@ Op Code | R_SRC | R_DST
 
 # Results of a sample sum operation
 
+## Asembly Code
+
+```assembly
+LOAD R0, 7
+LOAD R1, 4
+ADD R0, R1
+```
+
 ## Simulations Output
 
 ![Processor Schematic](images/section1.jpg)
