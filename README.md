@@ -51,11 +51,11 @@ In this project, a 6-bit processor designed in class will be implemented and pro
 - Implement the processor using **VHDL** or **Verilog**.
 - Verify its functionality by executing the following assembly code, which adds the numbers 7 and 4:
 
-````assembly
+```assembly
 LOAD R0, 7
 LOAD R1, 4
 ADD R0, R1
-
+```
 
 Section 2 (20% of the Project Grade)
 Since the processor lacks a multiplication instruction, implement multiplication using addition in software.
@@ -75,18 +75,20 @@ Implement an assembler to convert assembly code into binary code using high-leve
 ## Processor Schematic
 
 ![Processor Schematic](images/schematic.jpg)
+
 # Processor Instructions
 
 This processor supports four instructions: **LOAD**, **ADD**, **SUB**, and **JNZ**, with the following operation codes (Op Codes):
 
 | Instruction | Op Code |
-|-------------|---------|
+| ----------- | ------- |
 | LOAD        | 00      |
 | ADD         | 01      |
 | SUB         | 10      |
 | JNZ         | 11      |
 
 # Instruction Format
+
 The processor uses the following instruction format:
 Op Code | R_SRC | R_DST
 
@@ -110,7 +112,7 @@ ADD R0, R2
 SUB R3, R1
 JNZ R3, 8
 HLT
-
+```
 
 ```vhdl created from asembler code
 ROM(0)  <= "000001";
@@ -126,6 +128,7 @@ ROM(9)  <= "101101";
 ROM(10) <= "111100";
 ROM(11) <= "001000";
 ROM(12) <= "000000";
+```
 
 ##Simulations Output
 ![Processor Schematic](images/section2.jpg)
@@ -133,13 +136,16 @@ ROM(12) <= "000000";
 # Results of hardware multiplications unit
 
 ## Assembly Code
+
 ```assembly
 LOAD R0, 6
 LOAD R1, 8
 MULT R0, R1
 HLT
+```
 
 ## ROM Initialization Code
+
 ```vhdl
 ROM(0)  <= "000001";
 ROM(1)  <= "000110";
@@ -147,8 +153,6 @@ ROM(2)  <= "000101";
 ROM(3)  <= "001000";
 ROM(4)  <= "110001";
 ROM(5)  <= "000000";
+```
 
 ![Processor Schematic](images/section3.jpg)
-
-
-````
