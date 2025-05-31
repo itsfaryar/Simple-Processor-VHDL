@@ -1,4 +1,4 @@
-# Simple-Processor-VHDL
+# Custom-Processor-VHDL
 
 # Project Overview
 
